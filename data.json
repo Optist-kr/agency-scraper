@@ -1,1 +1,114 @@
-[]
+[
+    {
+        "agency": "Landor",
+        "title": "TATA.ev",
+        "link": "https://landor.com/en/our-work/tataev/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "screenshot_local": "screenshots/Landor_0_TATAev.png"
+    },
+    {
+        "agency": "Landor",
+        "title": "Reykjavik Global Forum",
+        "link": "https://landor.com/en/our-work/reykjavik-global-forum/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "screenshot_local": "screenshots/Landor_1_ReykjavikGlobalForum.png"
+    },
+    {
+        "agency": "Landor",
+        "title": "Misura",
+        "link": "https://landor.com/en/our-work/misura/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "screenshot_local": "screenshots/Landor_2_Misura.png"
+    },
+    {
+        "agency": "Landor",
+        "title": "MYOM",
+        "link": "https://landor.com/en/our-work/myom/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "screenshot_local": "screenshots/Landor_3_MYOM.png"
+    },
+    {
+        "agency": "Landor",
+        "title": "Lobos 1707",
+        "link": "https://landor.com/en/our-work/lobos-1707/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "screenshot_local": "screenshots/Landor_4_Lobos1707.png"
+    },
+    {
+        "agency": "Landor",
+        "title": "Volkswagen Group",
+        "link": "https://landor.com/en/our-work/volkswagen-group/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "screenshot_local": "screenshots/Landor_5_VolkswagenGroup.png"
+    },
+    {
+        "agency": "Landor",
+        "title": "Nike Kids",
+        "link": "https://landor.com/en/our-work/nike-kids/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "screenshot_local": "screenshots/Landor_6_NikeKids.png"
+    },
+    {
+        "agency": "Landor",
+        "title": "West Loop",
+        "link": "https://landor.com/en/our-work/west-loop/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "screenshot_local": "screenshots/Landor_7_WestLoop.png"
+    },
+    {
+        "agency": "Landor",
+        "title": "nib",
+        "link": "https://landor.com/en/our-work/nib/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "screenshot_local": "screenshots/Landor_8_nib.png"
+    },
+    {
+        "agency": "Landor",
+        "title": "New York Golf Club",
+        "link": "https://landor.com/en/our-work/new-york-golf-club/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "screenshot_local": "screenshots/Landor_9_NewYorkGolfClub.png"
+    },
+    {
+        "agency": "Interbrand",
+        "title": "SE Saudi Energy: From utility provider to multi",
+        "link": "https://www.interbrand.com/work/se-saudi-energy/",
+        "thumbnail": "https://d338ucc43w64ir.cloudfront.net/wp-content/uploads/2026/03/02140348/4_Charger.jpg?format=auto&width=3840&quality=75",
+        "screenshot_local": "screenshots/Interbrand_0_SESaudiEnergyFromutilityprovidertomulti.png"
+    },
+    {
+        "agency": "Interbrand",
+        "title": "LEGO",
+        "link": "https://www.interbrand.com/work/lego/",
+        "thumbnail": "https://d338ucc43w64ir.cloudfront.net/wp-content/uploads/2025/10/08105050/LEGO-Testimonial.png?format=auto&width=3840&quality=75",
+        "screenshot_local": "screenshots/Interbrand_1_LEGO.png"
+    },
+    {
+        "agency": "Interbrand",
+        "title": "TOKYO CHAOS (Matsukiyo)",
+        "link": "https://www.interbrand.com/work/matsukiyo/",
+        "thumbnail": "https://d338ucc43w64ir.cloudfront.net/wp-content/uploads/2025/10/11152826/12-04915-2023BC.0987860_CO.jpg?format=auto&width=3840&quality=75",
+        "screenshot_local": "screenshots/Interbrand_2_TOKYOCHAOSMatsukiyo.png"
+    },
+    {
+        "agency": "Interbrand",
+        "title": "Juventus",
+        "link": "https://www.interbrand.com/work/juventus/",
+        "thumbnail": "https://d338ucc43w64ir.cloudfront.net/wp-content/uploads/2025/10/02171122/Interbrand_Juventus_designapplications_SkisFrontandBack.jpg?format=auto&width=3840&quality=75",
+        "screenshot_local": "screenshots/Interbrand_3_Juventus.png"
+    },
+    {
+        "agency": "Interbrand",
+        "title": "BUGATTI",
+        "link": "https://www.interbrand.com/work/bugatti/",
+        "thumbnail": "https://d338ucc43w64ir.cloudfront.net/wp-content/uploads/2025/10/02150019/BUGATTI_4.jpg?format=auto&width=3840&quality=75",
+        "screenshot_local": "screenshots/Interbrand_4_BUGATTI.png"
+    },
+    {
+        "agency": "Interbrand",
+        "title": "ViX",
+        "link": "https://www.interbrand.com/work/vix/",
+        "thumbnail": "https://d338ucc43w64ir.cloudfront.net/wp-content/uploads/2025/10/10190250/Clios_ViX_Design_rebrand_04-Opt.jpg?format=auto&width=3840&quality=75",
+        "screenshot_local": "screenshots/Interbrand_5_ViX.png"
+    }
+]
