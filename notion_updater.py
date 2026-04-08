@@ -22,9 +22,10 @@ def add_to_notion(item):
             "이름": {"title": [{"text": {"content": item["title"]}}]},
             "Agency": {"select": {"name": item["agency"]}},
             "Link": {"url": item["link"]},
-            # 💡 노션에 방금 만든 [제품군]과 [디자인 종류] 컬럼에 데이터를 넣습니다.
-            "제품군": {"select": {"name": item.get("product_type", "기타")}},
-            "디자인 종류": {"select": {"name": item.get("design_type", "분류 안됨")}}
+            "제품군": {"select": {"name": item.get("product_type", "기타 산업")}},
+            "디자인 종류": {"select": {"name": item.get("design_type", "분류 안됨")}},
+            # 💡 [핵심] 노션에 방금 만든 '구분' 컬럼에 해외/국내 데이터를 넣습니다.
+            "구분": {"select": {"name": item.get("region", "해외")}}
         },
         "children": [
             {
@@ -42,7 +43,7 @@ def add_to_notion(item):
     
     response = requests.post("https://api.notion.com/v1/pages", headers=headers, json=data)
     if response.status_code != 200:
-        print(f"노션 업로드 에러: {response.text}")
+        print(f"노션 업로드 에러 ({item['title']}): {response.text}")
 
 with open("data.json", "r", encoding="utf-8") as f:
     for item in json.load(f):
