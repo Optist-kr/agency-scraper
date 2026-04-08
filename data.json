@@ -1,12 +1,13 @@
 [
     {
         "agency": "Landor",
-        "title": "Dr. Martens",
-        "link": "https://landor.com/en/our-work/dr-martens/",
+        "title": "LeShuttle",
+        "link": "https://landor.com/en/our-work/leshuttle/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_0_DrMartens.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "screenshot_local": "screenshots/Landor_0_LeShuttle.png",
+        "product_type": "스포츠/레저",
+        "design_type": "편집/인쇄물",
+        "region": "해외"
     },
     {
         "agency": "Landor",
@@ -14,8 +15,9 @@
         "link": "https://landor.com/en/our-work/milan-symphony-orchestra/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
         "screenshot_local": "screenshots/Landor_1_MilanSymphonyOrchestra.png",
-        "product_type": "IT/금융",
-        "design_type": "로고/아이덴티티"
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
     },
     {
         "agency": "Landor",
@@ -24,366 +26,337 @@
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
         "screenshot_local": "screenshots/Landor_2_Lobos1707.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "패키지 디자인"
-    },
-    {
-        "agency": "Landor",
-        "title": "Reykjavik Global Forum",
-        "link": "https://landor.com/en/our-work/reykjavik-global-forum/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_3_ReykjavikGlobalForum.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "Saudia Airlines",
-        "link": "https://landor.com/en/our-work/saudia-airlines/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_4_SaudiaAirlines.png",
-        "product_type": "IT/금융",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "TATA.ev",
-        "link": "https://landor.com/en/our-work/tataev/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_5_TATAev.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "Lynk & Co",
-        "link": "https://landor.com/en/our-work/lynk-co/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_6_LynkCo.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "패키지 디자인"
-    },
-    {
-        "agency": "Landor",
-        "title": "nib",
-        "link": "https://landor.com/en/our-work/nib/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_7_nib.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "패키지 디자인",
+        "region": "해외"
     },
     {
         "agency": "Landor",
         "title": "BANCOMAT",
         "link": "https://landor.com/en/our-work/bancomat/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_8_BANCOMAT.png",
+        "screenshot_local": "screenshots/Landor_3_BANCOMAT.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "Kellogg's",
-        "link": "https://landor.com/en/our-work/kelloggs/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_9_Kelloggs.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "패키지 디자인"
-    },
-    {
-        "agency": "Landor",
-        "title": "KitKat",
-        "link": "https://landor.com/en/our-work/kitkat/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_10_KitKat.png",
-        "product_type": "식음료(F&B)",
-        "design_type": "패키지 디자인"
-    },
-    {
-        "agency": "Landor",
-        "title": "Misura",
-        "link": "https://landor.com/en/our-work/misura/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_11_Misura.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "패키지 디자인"
-    },
-    {
-        "agency": "Landor",
-        "title": "QT",
-        "link": "https://landor.com/en/our-work/qt/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_12_QT.png",
-        "product_type": "기타 산업",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "Volkswagen Group",
-        "link": "https://landor.com/en/our-work/volkswagen-group/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_13_VolkswagenGroup.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "{access}ories",
-        "link": "https://landor.com/en/our-work/access-ories/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_14_accessories.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "A&O Shearman",
-        "link": "https://landor.com/en/our-work/ao-shearman/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_15_AOShearman.png",
-        "product_type": "기타 산업",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "Walmart",
-        "link": "https://landor.com/en/our-work/walmart/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_16_Walmart.png",
-        "product_type": "IT/금융",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "West Loop",
-        "link": "https://landor.com/en/our-work/west-loop/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_17_WestLoop.png",
-        "product_type": "IT/금융",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "bp",
-        "link": "https://landor.com/en/our-work/bp/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_18_bp.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "LeShuttle",
-        "link": "https://landor.com/en/our-work/leshuttle/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_19_LeShuttle.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "Team Global Express",
-        "link": "https://landor.com/en/our-work/team-global-express/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_20_TeamGlobalExpress.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
     },
     {
         "agency": "Landor",
         "title": "Imperia",
         "link": "https://landor.com/en/our-work/imperia/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_21_Imperia.png",
+        "screenshot_local": "screenshots/Landor_4_Imperia.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
     },
     {
-        "agency": "Landor",
-        "title": "Burson",
-        "link": "https://landor.com/en/our-work/burson/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_22_Burson.png",
-        "product_type": "IT/금융",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "Nike Kids",
-        "link": "https://landor.com/en/our-work/nike-kids/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_23_NikeKids.png",
-        "product_type": "유아동/키즈",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "AO",
-        "link": "https://landor.com/en/our-work/ao/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_24_AO.png",
-        "product_type": "식음료(F&B)",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "Syensqo",
-        "link": "https://landor.com/en/our-work/syensqo/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_25_Syensqo.png",
-        "product_type": "IT/금융",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "Huawei",
-        "link": "https://landor.com/en/our-work/huawei/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_26_Huawei.png",
-        "product_type": "IT/금융",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "New York Golf Club",
-        "link": "https://landor.com/en/our-work/new-york-golf-club/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_27_NewYorkGolfClub.png",
+        "agency": "Collins",
+        "title": "Bose",
+        "link": "https://www.wearecollins.com/case-studies/bose",
+        "thumbnail": "https://image.mux.com/9XbYL3X200SnmkINoarGm228TbECqpT028zcR9ZUz02J8c/thumbnail.webp?time=0&width=1866&height=1245 1866w",
+        "screenshot_local": "screenshots/Collins_0_Bose.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
     },
     {
-        "agency": "Landor",
-        "title": "Topo Chico",
-        "link": "https://landor.com/en/our-work/topo-chico/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_28_TopoChico.png",
+        "agency": "Collins",
+        "title": "Tribeca Film Festival x COLLINS",
+        "link": "https://www.wearecollins.com/story/TribecaFilm",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/962fb22974ddd1b7d496005d6c46a555ea81b899-3000x2000.jpg?w=4000&fit=crop&rect=0,0,3000,2000&fp-x=0.7083646120054494&fp-y=0.28108057385937113&auto=format",
+        "screenshot_local": "screenshots/Collins_1_TribecaFilmFestivalxCOLLINS.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "패키지 디자인"
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
     },
     {
-        "agency": "Landor",
-        "title": "Opella",
-        "link": "https://landor.com/en/our-work/opella/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_29_Opella.png",
+        "agency": "Collins",
+        "title": "Robinhood",
+        "link": "https://www.wearecollins.com/case-studies/robinhood",
+        "thumbnail": "https://image.mux.com/lm3J7SMeozmDsjbVNgSI01voL4s3GCHAF28LW19C8HSI/thumbnail.webp?time=0&width=1866&height=1135 1866w",
+        "screenshot_local": "screenshots/Collins_2_Robinhood.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "로고/아이덴티티",
+        "region": "해외"
     },
     {
-        "agency": "Landor",
-        "title": "M&M'S",
-        "link": "https://landor.com/en/our-work/mms/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_30_MMS.png",
+        "agency": "Collins",
+        "title": "The House of Belonging",
+        "link": "https://www.wearecollins.com/story/the-house-of-belong",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/962fb22974ddd1b7d496005d6c46a555ea81b899-3000x2000.jpg?w=4000&fit=crop&rect=0,0,3000,2000&fp-x=0.7083646120054494&fp-y=0.28108057385937113&auto=format",
+        "screenshot_local": "screenshots/Collins_3_TheHouseofBelonging.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
     },
     {
-        "agency": "Landor",
-        "title": "Elica",
-        "link": "https://landor.com/en/our-work/elica/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_31_Elica.png",
-        "product_type": "IT/금융",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "Orchestre De Chambre de Paris",
-        "link": "https://landor.com/en/our-work/orchestre-de-chambre-de-paris/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_32_OrchestreDeChambredeParis.png",
-        "product_type": "IT/금융",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "iz",
-        "link": "https://landor.com/en/our-work/iz/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_33_iz.png",
-        "product_type": "IT/금융",
-        "design_type": "로고/아이덴티티"
-    },
-    {
-        "agency": "Landor",
-        "title": "Renault",
-        "link": "https://landor.com/en/our-work/renault/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_34_Renault.png",
+        "agency": "Collins",
+        "title": "Cadia",
+        "link": "https://www.wearecollins.com/case-studies/cadia",
+        "thumbnail": "https://image.mux.com/WFfJhazbMyNfHp7onbSM01fV00QlO2R6KXugcg3YyzJIg/thumbnail.webp?time=0&width=1866&height=1050 1866w",
+        "screenshot_local": "screenshots/Collins_4_Cadia.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "로고/아이덴티티",
+        "region": "해외"
     },
     {
-        "agency": "Landor",
-        "title": "IUCN/SOS",
-        "link": "https://landor.com/en/our-work/iucnsos/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_35_IUCNSOS.png",
+        "agency": "Kurppa Hosk",
+        "title": "International",
+        "link": "https://www.kurppahosk.com/work/international",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "screenshot_local": "screenshots/Kurppa Hosk_0_International.png",
+        "product_type": "스포츠/레저",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "O.A.Devold – Brand development by Kurppa Hosk",
+        "link": "https://www.kurppahosk.com/work/oad",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "screenshot_local": "screenshots/Kurppa Hosk_1_OADevoldBranddevelopmentbyKurppaHosk.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
     },
     {
-        "agency": "Landor",
-        "title": "MYOM",
-        "link": "https://landor.com/en/our-work/myom/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_36_MYOM.png",
-        "product_type": "IT/금융",
-        "design_type": "패키지 디자인"
+        "agency": "Kurppa Hosk",
+        "title": "Zalando’s next chapter",
+        "link": "https://www.kurppahosk.com/work/zalando",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "screenshot_local": "screenshots/Kurppa Hosk_2_Zalandosnextchapter.png",
+        "product_type": "스포츠/레저",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
     },
     {
-        "agency": "Interbrand",
-        "title": "LEGO",
-        "link": "https://www.interbrand.com/work/lego/",
-        "thumbnail": "https://d338ucc43w64ir.cloudfront.net/wp-content/uploads/2025/10/08105050/LEGO-Testimonial.png?format=auto&width=3840&quality=75",
-        "screenshot_local": "screenshots/Interbrand_0_LEGO.png",
+        "agency": "Kurppa Hosk",
+        "title": "Unveiling Llama on the center stage. Meta's open",
+        "link": "https://www.kurppahosk.com/work/meta",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "screenshot_local": "screenshots/Kurppa Hosk_3_UnveilingLlamaonthecenterstageMetasopen.png",
+        "product_type": "스포츠/레저",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Nike",
+        "link": "https://www.kurppahosk.com/work/nike",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "screenshot_local": "screenshots/Kurppa Hosk_4_Nike.png",
+        "product_type": "스포츠/레저",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Wolff Olins",
+        "title": "Work — Sandals & Beaches Resorts — Physical Environments and more — Wolff Olins",
+        "link": "https://www.wolffolins.com/work/sandals-and-beaches-resorts",
+        "thumbnail": "https://www.wolffolins.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F4rnblstkg79m%2F7G1mD0376vpOiBvRrbEnu0%2Fcfe76f59995b140bfe2435f4626f2b2e%2F01.png&w=3840&q=75",
+        "screenshot_local": "screenshots/Wolff Olins_3_WorkSandalsBeachesResortsPhysicalEnvironmentsandmoreWolffOlins.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
     },
     {
-        "agency": "Interbrand",
-        "title": "Juventus",
-        "link": "https://www.interbrand.com/work/juventus/",
-        "thumbnail": "https://d338ucc43w64ir.cloudfront.net/wp-content/uploads/2025/10/02171122/Interbrand_Juventus_designapplications_SkisFrontandBack.jpg?format=auto&width=3840&quality=75",
-        "screenshot_local": "screenshots/Interbrand_1_Juventus.png",
+        "agency": "Pentagram",
+        "title": "PolyBio Research Foundation",
+        "link": "https://www.pentagram.com/work/polybio-research-foundation",
+        "thumbnail": "https://pentagram-production.imgix.net/f132cfb7-22dd-4cbe-aa33-501f0f0004a9/20241011_OWS_CaseStudy6.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=100%2C0%2C1800%2C1125&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "screenshot_local": "screenshots/Pentagram_0_PolyBioResearchFoundation.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
     },
     {
-        "agency": "Interbrand",
-        "title": "TOKYO CHAOS (Matsukiyo)",
-        "link": "https://www.interbrand.com/work/matsukiyo/",
-        "thumbnail": "https://d338ucc43w64ir.cloudfront.net/wp-content/uploads/2025/10/11152826/12-04915-2023BC.0987860_CO.jpg?format=auto&width=3840&quality=75",
-        "screenshot_local": "screenshots/Interbrand_2_TOKYOCHAOSMatsukiyo.png",
+        "agency": "Pentagram",
+        "title": "Chateau Engalin",
+        "link": "https://www.pentagram.com/work/chateau-engalin",
+        "thumbnail": "https://pentagram-production.imgix.net/070dedab-aeef-4a38-b5a5-71acee02c7d6/1_PGC_CaseStudy_Herocopy.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=96%2C0%2C1728%2C1080&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "screenshot_local": "screenshots/Pentagram_1_ChateauEngalin.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
     },
     {
-        "agency": "Interbrand",
-        "title": "ViX",
-        "link": "https://www.interbrand.com/work/vix/",
-        "thumbnail": "https://d338ucc43w64ir.cloudfront.net/wp-content/uploads/2025/10/10190250/Clios_ViX_Design_rebrand_04-Opt.jpg?format=auto&width=3840&quality=75",
-        "screenshot_local": "screenshots/Interbrand_3_ViX.png",
+        "agency": "Pentagram",
+        "title": "Gates Foundation 25th Anniversary",
+        "link": "https://www.pentagram.com/work/gates-foundation-25th-anniversary",
+        "thumbnail": "https://pentagram-production.imgix.net/fb2aeedd-996c-4d06-9bf6-64795e672ee3/ShakespeareinthePark2025_Page_06.png?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=300%2C0%2C5400%2C3375&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "screenshot_local": "screenshots/Pentagram_2_GatesFoundation25thAnniversary.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
     },
     {
-        "agency": "Interbrand",
-        "title": "BUGATTI",
-        "link": "https://www.interbrand.com/work/bugatti/",
-        "thumbnail": "https://d338ucc43w64ir.cloudfront.net/wp-content/uploads/2025/10/02150019/BUGATTI_4.jpg?format=auto&width=3840&quality=75",
-        "screenshot_local": "screenshots/Interbrand_4_BUGATTI.png",
+        "agency": "Pentagram",
+        "title": "National Building Museum",
+        "link": "https://www.pentagram.com/work/national-building-museum",
+        "thumbnail": "https://pentagram-production.imgix.net/c9be29ff-037a-40a3-bb1f-07d8d2bbb3d6/GFTHUMBNAIL.png?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C80%2C1920%2C1200&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "screenshot_local": "screenshots/Pentagram_3_NationalBuildingMuseum.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
     },
     {
-        "agency": "Interbrand",
-        "title": "SE Saudi Energy: From utility provider to multi",
-        "link": "https://www.interbrand.com/work/se-saudi-energy/",
-        "thumbnail": "https://d338ucc43w64ir.cloudfront.net/wp-content/uploads/2026/03/02140348/4_Charger.jpg?format=auto&width=3840&quality=75",
-        "screenshot_local": "screenshots/Interbrand_5_SESaudiEnergyFromutilityprovidertomulti.png",
+        "agency": "Pentagram",
+        "title": "‘A Data Love Letter to the Subway’",
+        "link": "https://www.pentagram.com/work/a-data-love-letter-to-the-subway",
+        "thumbnail": "https://pentagram-production.imgix.net/b27d7860-e186-4545-bbe6-6e37f3782cf7/251013_Web_Thumbnail_3000x2000.png?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C62%2C3000%2C1875&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "screenshot_local": "screenshots/Pentagram_4_ADataLoveLettertotheSubway.png",
+        "product_type": "스포츠/레저",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Anagrama",
+        "title": "Cerveza Moritas",
+        "link": "https://www.anagrama.com/project/cerveza-moritas",
+        "thumbnail": "https://anagrama-cdn.sfo2.cdn.digitaloceanspaces.com/assets/assets/assets/3556/original/A.jpg?1533334605",
+        "screenshot_local": "screenshots/Anagrama_0_CervezaMoritas.png",
+        "product_type": "IT/테크",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Anagrama",
+        "title": "Bombavista",
+        "link": "https://www.anagrama.com/project/bombavista",
+        "thumbnail": "https://anagrama-cdn.sfo2.cdn.digitaloceanspaces.com/assets/assets/assets/6233/original/1.png?1643930282",
+        "screenshot_local": "screenshots/Anagrama_1_Bombavista.png",
+        "product_type": "IT/테크",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Anagrama",
+        "title": "Sofia Valanci",
+        "link": "https://www.anagrama.com/project/sofia-valanci",
+        "thumbnail": "https://anagrama-cdn.sfo2.cdn.digitaloceanspaces.com/assets/assets/assets/3222/original/D_1140.gif?1515485893",
+        "screenshot_local": "screenshots/Anagrama_2_SofiaValanci.png",
+        "product_type": "화장품/뷰티",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Anagrama",
+        "title": "Cocofloss Neapolitan",
+        "link": "https://www.anagrama.com/project/cocofloss-neapolitan",
+        "thumbnail": "https://anagrama-cdn.sfo2.cdn.digitaloceanspaces.com/assets/assets/assets/4672/original/A.jpg?1582568524",
+        "screenshot_local": "screenshots/Anagrama_3_CocoflossNeapolitan.png",
+        "product_type": "IT/테크",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Anagrama",
+        "title": "Bistrot Pasquinel",
+        "link": "https://www.anagrama.com/project/bistrot-pasquinel",
+        "thumbnail": "https://anagrama-cdn.sfo2.cdn.digitaloceanspaces.com/assets/assets/assets/3495/original/001.jpg?1529964233",
+        "screenshot_local": "screenshots/Anagrama_4_BistrotPasquinel.png",
+        "product_type": "화장품/뷰티",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Designfever",
+        "title": "Kolmar Global",
+        "link": "https://designfever.com/work/kolmar-global",
+        "thumbnail": "https://api.designfever.com/data/image/list/P1_Thum_16.jpg",
+        "screenshot_local": "screenshots/Designfever_0_KolmarGlobal.png",
         "product_type": "자동차/모빌리티",
-        "design_type": "로고/아이덴티티"
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "Samsung Bespoke AI Combo",
+        "link": "https://designfever.com/work/samsung-bespoke-ai-combo",
+        "thumbnail": "https://api.designfever.com/data/image/svg/Samsung_Orig_Wordmark_BLACK_RGB_10.svg",
+        "screenshot_local": "screenshots/Designfever_1_SamsungBespokeAICombo.png",
+        "product_type": "스포츠/레저",
+        "design_type": "영상/모션 그래픽",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "Design Samsung Website Renewal",
+        "link": "https://designfever.com/work/designsamsung_web_renewal",
+        "thumbnail": "https://api.designfever.com/data/image/svg/Samsung_Orig_Wordmark_BLACK_RGB_13.svg",
+        "screenshot_local": "screenshots/Designfever_2_DesignSamsungWebsiteRenewal.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "IKEA Gangdong Opening Campaign",
+        "link": "https://designfever.com/work/ikea-gangdong-opening",
+        "thumbnail": "https://api.designfever.com/data/image/list/P1_PT_1_2.png",
+        "screenshot_local": "screenshots/Designfever_3_IKEAGangdongOpeningCampaign.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "BLISSOO",
+        "link": "https://designfever.com/work/blissoo",
+        "thumbnail": "https://api.designfever.com/data/image/list/P1_video.jpg",
+        "screenshot_local": "screenshots/Designfever_4_BLISSOO.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "DFY",
+        "title": "Stories That Inspire",
+        "link": "https://www.dfy.co.kr/interests/stories-that-inspire",
+        "thumbnail": "https://d3pa3k2t5qmtom.cloudfront.net/images/dev/works/ac4659d7-fca0-4231-95f4-ce9ca7e84325/1678424560975.jpg?q=75&w=820&f=webp",
+        "screenshot_local": "screenshots/DFY_0_StoriesThatInspire.png",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "VinylC",
+        "title": "Works",
+        "link": "https://www.vinylc.com/en/works",
+        "thumbnail": "https://www.vinylc.com/upload/work/WK00000997/_________________samsung_o2_work_list2.png",
+        "screenshot_local": "screenshots/VinylC_0_Works.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Vortex Gaming",
+        "link": "https://www.hnine.com/project/inven-vrtx/index.html",
+        "thumbnail": "",
+        "screenshot_local": "screenshots/HNINE_0_VortexGaming.png",
+        "product_type": "패션/의류",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Cube Crush",
+        "link": "https://www.hnine.com/project/cubecrush/index.html",
+        "thumbnail": "",
+        "screenshot_local": "screenshots/HNINE_1_CubeCrush.png",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Statue Road AR",
+        "link": "https://www.hnine.com/project/statue-road-ar/index.html",
+        "thumbnail": "https://www.hnine.com/assets/images/statue-memory-awaken.webp",
+        "screenshot_local": "screenshots/HNINE_2_StatueRoadAR.png",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
     }
 ]
