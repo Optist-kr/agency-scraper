@@ -3,19 +3,18 @@ import os
 import requests
 
 NOTION_TOKEN = os.environ.get("NOTION_TOKEN")
-DATABASE_ID = os.environ.get("NOTION_DATABASE_ID")
-# GitHub 이미지 호스팅 주소 (자신의 계정명과 레포명으로 자동 설정)
+DATABASE_ID = "33cce71c8a0180bbb1caffa718dcc1ad" # 혜진 님의 진짜 ID
 REPO_NAME = os.environ.get("GITHUB_REPOSITORY")
 
-HEADERS = {
-    "Authorization": f"Bearer {NOTION_TOKEN}",
-    "Content-Type": "application/json",
-    "Notion-Version": "2022-06-28"
-}
-
 def add_to_notion(item):
-    # 깃허브에 저장된 이미지의 절대 경로 (노션이 불러올 수 있는 URL)
+    # GitHub에 저장된 이미지를 외부에서 볼 수 있는 주소로 변환
     image_url = f"https://raw.githubusercontent.com/{REPO_NAME}/main/{item['screenshot_local']}"
+
+    headers = {
+        "Authorization": f"Bearer {NOTION_TOKEN}",
+        "Content-Type": "application/json",
+        "Notion-Version": "2022-06-28"
+    }
 
     data = {
         "parent": {"database_id": DATABASE_ID},
@@ -25,7 +24,12 @@ def add_to_notion(item):
             "Agency": {"select": {"name": item["agency"]}},
             "Link": {"url": item["link"]}
         },
-        "children": [ # 페이지 본문에 상세 캡처본 삽입
+        "children": [
+            {
+                "object": "block",
+                "type": "heading_2",
+                "heading_2": {"rich_text": [{"text": {"content": "Full Project Capture"}}]}
+            },
             {
                 "object": "block",
                 "type": "image",
@@ -36,15 +40,8 @@ def add_to_notion(item):
             }
         ]
     }
-    requests.post("https://api.notion.com/v1/pages", headers=HEADERS, json=data)
+    requests.post("https://api.notion.com/v1/pages", headers=headers, json=data)
 
-def main():
-    with open("data.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
-    
-    for item in data:
+with open("data.json", "r", encoding="utf-8") as f:
+    for item in json.load(f):
         add_to_notion(item)
-        print(f"노션 업데이트 완료: {item['title']}")
-
-if __name__ == "__main__":
-    main()
