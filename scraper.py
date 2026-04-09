@@ -4,7 +4,7 @@ import os
 from urllib.parse import urljoin, urlparse
 from playwright.sync_api import sync_playwright
 
-# 💡 22개 에이전시의 [메인 홈페이지 주소]만 입력합니다. (상세 주소 불필요)
+# 💡 메인 홈페이지 주소만 넣어둡니다.
 SITES = [
     {"name": "Landor", "url": "https://landor.com/", "region": "해외"},
     {"name": "Interbrand", "url": "https://www.interbrand.com/", "region": "해외"},
@@ -31,20 +31,20 @@ SITES = [
     {"name": "Plus X", "url": "https://www.plus-ex.com/", "region": "국내"}
 ]
 
-# 💡 다양한 포트폴리오 용어 사전 (혜진님 요청 사항 반영)
-PORTFOLIO_KEYWORDS = ['work', 'works', 'project', 'projects', 'case', 'cases', 'portfolio', 'archive', 'story', 'stories', 'selected', 'our-work']
+# 💡 이 단어들이 메뉴에 있으면 클릭해서 포트폴리오 창으로 진입합니다.
+PORTFOLIO_KEYWORDS = ['work', 'works', 'project', 'projects', 'case', 'cases', 'portfolio', 'archive', 'our-work', 'selected']
 
-# 💡 포트폴리오로 착각하면 안 되는 메뉴들
+# 💡 하위 링크들 중 이 단어가 포함되어 있으면 세부 프로젝트가 아니므로 버립니다.
 IGNORE_KEYWORDS = [
     'about', 'contact', 'news', 'profile', 'career', 'team', 'service', 'privacy', 
     'studio', 'info', 'insight', 'people', 'culture', 'jobs', 'terms', 'policy', 
     'facebook', 'instagram', 'twitter', 'linkedin', 'journal', 'ideas', 'approach', 
-    'store', 'clients', 'awards', 'expertise', 'capabilities', 'publications'
+    'store', 'clients', 'awards', 'expertise', 'capabilities', 'publications',
+    'office', 'login', 'cart', 'search'
 ]
 
 def categorize_project(title, text):
     content = (title + " " + text).lower()
-    
     product = "기타 산업"
     if any(w in content for w in ["sport", "golf", "tennis", "athletic", "nike", "adidas", "스포츠", "골프", "운동", "피트니스", "아웃도어"]): product = "스포츠/레저"
     elif any(w in content for w in ["auto", "car", "mobility", "vehicle", "motor", "자동차", "모빌리티", "차량"]): product = "자동차/모빌리티"
@@ -82,54 +82,61 @@ def run(playwright):
 
     for site in SITES:
         try:
-            print(f"\n--- {site['name']} ({site['region']}) 스마트 탐색 시작 ---")
+            print(f"\n--- {site['name']} ({site['region']}) 탐색 시작 ---")
             page.goto(site['url'], wait_until="networkidle", timeout=60000)
-            time.sleep(4)
-            
-            # 메인 페이지에서 스크롤하며 숨겨진 링크 확보
-            for _ in range(5):
-                page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-                time.sleep(2)
+            time.sleep(3)
 
+            # 💡 [핵심 1] 홈페이지에서 '포트폴리오(Work, Cases 등)' 메뉴를 찾아 진입합니다.
+            work_link = None
             links = page.locator("a").element_handles()
-            project_urls = set()
-            
             for link in links:
                 try:
                     href = link.get_attribute("href")
+                    text = link.inner_text().lower()
+                    if href and any(kw in href.lower() or kw in text for kw in PORTFOLIO_KEYWORDS):
+                        # 자사 도메인 내의 링크인지 확인
+                        if urlparse(urljoin(site['url'], href)).netloc == urlparse(site['url']).netloc:
+                            work_link = urljoin(site['url'], href)
+                            break
+                except: pass
+
+            if work_link:
+                print(f"포트폴리오 목록 페이지 진입: {work_link}")
+                page.goto(work_link, wait_until="networkidle", timeout=60000)
+            else:
+                print("포트폴리오 메뉴를 찾지 못해 현재(메인) 페이지를 기준으로 탐색합니다.")
+                work_link = site['url']
+
+            time.sleep(4)
+            
+            # 목록 페이지 스크롤하여 숨겨진 썸네일들 로딩
+            for _ in range(6):
+                page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                time.sleep(2)
+
+            # 💡 [핵심 2] 현재 페이지에 있는 모든 링크를 수집한 뒤, 세부 프로젝트만 걸러냅니다.
+            project_urls = set()
+            for link in page.locator("a").element_handles():
+                try:
+                    href = link.get_attribute("href")
                     if not href: continue
-                    
-                    full_url = urljoin(site['url'], href).split('#')[0].split('?')[0]
+                    full_url = urljoin(work_link, href).split('#')[0].split('?')[0]
                     
                     # 1. 외부 링크 제외
                     if urlparse(full_url).netloc != urlparse(site['url']).netloc: continue
-                    # 2. 홈페이지 자체 제외
-                    if full_url.rstrip('/') == site['url'].rstrip('/'): continue
-                    # 3. 무시할 키워드 제외
+                    # 2. 홈페이지 및 포트폴리오 목록 자체 페이지 제외 (단일 1개만 수집되는 문제 해결)
+                    if full_url.rstrip('/') == site['url'].rstrip('/') or full_url.rstrip('/') == work_link.rstrip('/'): continue
+                    # 3. 쓸데없는 메뉴(about 등) 제외
                     if any(ig in full_url.lower() for ig in IGNORE_KEYWORDS): continue
-                    
-                    # 💡 4. URL 구조 분석: 포트폴리오 키워드가 포함되어 있고, 하위 경로(세부 프로젝트)인지 확인
-                    url_segments = full_url.lower().replace('-', ' ').replace('_', ' ').split('/')
-                    # 빈 문자열 제거
-                    url_segments = [s for s in url_segments if s] 
-                    
-                    has_portfolio_keyword = False
-                    for segment in url_segments:
-                        words = segment.split()
-                        if any(kw in words for kw in PORTFOLIO_KEYWORDS):
-                            has_portfolio_keyword = True
-                            break
-                    
-                    # 도메인 제외하고 경로가 2단계 이상이면 '세부 프로젝트'로 간주 (예: /work/lego)
-                    path_segments = urlparse(full_url).path.strip('/').split('/')
-                    if has_portfolio_keyword and len(path_segments) >= 2:
+                    # 4. 최소한 경로(path)가 있는(깊이가 있는) 주소만 담기
+                    if len(urlparse(full_url).path.strip('/')) > 0:
                         project_urls.add(full_url)
                 except: pass
 
             project_urls = list(project_urls)
-            print(f"세부 프로젝트 링크 {len(project_urls)}개 발견")
+            print(f"최종 세부 프로젝트 링크 {len(project_urls)}개 발견")
 
-            # 사이트당 최대 30개씩 수집
+            # 💡 각 사이트당 상위 30개씩 수집 (시간 단축 및 오류 방지)
             for i, p_url in enumerate(project_urls[:30]):
                 try:
                     print(f"[{i+1}/{min(len(project_urls), 30)}] 수집 중: {p_url}")
@@ -138,7 +145,6 @@ def run(playwright):
                     time.sleep(3)
                     
                     title = detail_page.title().split('|')[0].split('-')[0].strip() or f"Project_{i}"
-                    
                     page_text = detail_page.locator("body").inner_text()
                     product_type, design_type = categorize_project(title, page_text)
                     
@@ -174,7 +180,7 @@ def run(playwright):
     browser.close()
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(all_projects, f, ensure_ascii=False, indent=4)
-    print(f"\n수집 완료! 총 {len(all_projects)}개 항목 준비됨.")
+    print(f"\n완료! 총 {len(all_projects)}개의 작업물이 저장되었습니다.")
 
 with sync_playwright() as playwright:
     run(playwright)
