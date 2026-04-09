@@ -18,7 +18,6 @@ SITES = [
     {"name": "Wolff Olins", "url": "https://www.wolffolins.com/", "region": "해외"},
     {"name": "Pentagram", "url": "https://www.pentagram.com/", "region": "해외"},
     {"name": "Anagrama", "url": "https://www.anagrama.com/", "region": "해외"},
-    
     {"name": "Studio fnt", "url": "https://studiofnt.com/", "region": "국내"},
     {"name": "Designfever", "url": "https://designfever.com/", "region": "국내"},
     {"name": "DFY", "url": "https://www.dfy.co.kr/", "region": "국내"},
@@ -32,19 +31,10 @@ SITES = [
 ]
 
 PORTFOLIO_KEYWORDS = ['work', 'works', 'project', 'projects', 'case', 'cases', 'portfolio', 'archive', 'our-work', 'selected']
-
-IGNORE_KEYWORDS = [
-    'about', 'contact', 'news', 'profile', 'career', 'team', 'service', 'privacy', 
-    'studio', 'info', 'insight', 'people', 'culture', 'jobs', 'terms', 'policy', 
-    'facebook', 'instagram', 'twitter', 'linkedin', 'journal', 'ideas', 'approach', 
-    'store', 'clients', 'awards', 'expertise', 'capabilities', 'publications',
-    'office', 'login', 'cart', 'search'
-]
+IGNORE_KEYWORDS = ['about', 'contact', 'news', 'profile', 'career', 'team', 'service', 'privacy', 'studio', 'info', 'insight', 'people', 'culture', 'jobs', 'terms', 'policy', 'facebook', 'instagram', 'twitter', 'linkedin', 'journal', 'ideas', 'approach', 'store', 'clients', 'awards', 'expertise', 'capabilities', 'publications', 'office', 'login', 'cart', 'search']
 
 def categorize_project(title, text):
     content = (title + " " + text).lower()
-    
-    # 영단어는 독립된 단어일 때만 인식 (예: skincare에서 car 인식 방지)
     def match(words):
         for w in words:
             if re.match(r'^[a-z]+$', w):
@@ -80,42 +70,31 @@ def categorize_project(title, text):
 
 def run(playwright):
     browser = playwright.chromium.launch(headless=True)
-    context = browser.new_context(viewport={'width': 1440, 'height': 900})
-    page = context.new_page()
-    
-    if not os.path.exists("screenshots"):
-        os.makedirs("screenshots")
-
     all_projects = []
 
     for site in SITES:
+        context = browser.new_context(viewport={'width': 1440, 'height': 900})
+        page = context.new_page()
         try:
-            print(f"\n--- {site['name']} ({site['region']}) 스마트 탐색 시작 ---")
+            print(f"\n--- {site['name']} ({site['region']}) 탐색 시작 ---")
             page.goto(site['url'], wait_until="networkidle", timeout=60000)
-            time.sleep(3)
+            time.sleep(2)
 
             work_link = None
-            links = page.locator("a").element_handles()
-            for link in links:
+            for link in page.locator("a").element_handles():
                 try:
                     href = link.get_attribute("href")
                     text = link.inner_text().lower()
                     if href and any(kw in href.lower() or kw in text for kw in PORTFOLIO_KEYWORDS):
-                        if urlparse(urljoin(site['url'], href)).netloc == urlparse(site['url']).netloc:
-                            work_link = urljoin(site['url'], href)
-                            break
+                        work_link = urljoin(site['url'], href)
+                        break
                 except: pass
 
-            if work_link:
-                print(f"포트폴리오 목록 페이지 진입: {work_link}")
-                page.goto(work_link, wait_until="networkidle", timeout=60000)
-            else:
-                print("포트폴리오 메뉴를 찾지 못해 메인 페이지에서 탐색합니다.")
-                work_link = site['url']
-
-            time.sleep(4)
+            work_link = work_link or site['url']
+            page.goto(work_link, wait_until="networkidle", timeout=60000)
+            time.sleep(3)
             
-            for _ in range(6):
+            for _ in range(4):
                 page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
                 time.sleep(2)
 
@@ -125,29 +104,23 @@ def run(playwright):
                     href = link.get_attribute("href")
                     if not href: continue
                     full_url = urljoin(work_link, href).split('#')[0].split('?')[0]
-                    
                     if urlparse(full_url).netloc != urlparse(site['url']).netloc: continue
                     if full_url.rstrip('/') == site['url'].rstrip('/') or full_url.rstrip('/') == work_link.rstrip('/'): continue
                     if any(ig in full_url.lower() for ig in IGNORE_KEYWORDS): continue
-                    
-                    if len(urlparse(full_url).path.strip('/')) > 0:
-                        project_urls.add(full_url)
+                    if len(urlparse(full_url).path.strip('/')) > 0: project_urls.add(full_url)
                 except: pass
 
-            project_urls = list(project_urls)
-            print(f"세부 프로젝트 링크 {len(project_urls)}개 발견")
-
-            for i, p_url in enumerate(project_urls[:30]):
+            for i, p_url in enumerate(list(project_urls)[:30]):
                 try:
-                    print(f"[{i+1}/{min(len(project_urls), 30)}] 수집 중: {p_url}")
+                    print(f"[{i+1}] 데이터 수집: {p_url}")
                     detail_page = context.new_page()
                     detail_page.goto(p_url, wait_until="networkidle", timeout=60000)
-                    time.sleep(3)
                     
                     title = detail_page.title().split('|')[0].split('-')[0].strip() or f"Project_{i}"
                     page_text = detail_page.locator("body").inner_text()
                     product_type, design_type = categorize_project(title, page_text)
                     
+                    # 💡 썸네일로 쓸 이미지 URL만 가져옵니다.
                     thumbnail = ""
                     imgs = detail_page.locator("img").element_handles()
                     for img in imgs:
@@ -156,31 +129,26 @@ def run(playwright):
                             thumbnail = urljoin(p_url, src)
                             break
 
-                    clean_title = "".join([c for c in title if c.isalnum()]).rstrip()
-                    file_name = f"screenshots/{site['name']}_{i}_{clean_title}.png"
-                    detail_page.screenshot(path=file_name, full_page=True)
-                    
                     all_projects.append({
                         "agency": site['name'],
                         "title": title,
                         "link": p_url,
                         "thumbnail": thumbnail,
-                        "screenshot_local": file_name,
                         "product_type": product_type,
                         "design_type": design_type,
                         "region": site['region']
                     })
                     detail_page.close()
-                except Exception as e:
-                    print(f"패스 ({p_url}): {e}")
-
-        except Exception as e:
-            print(f"접속 에러: {e}")
+                except: pass
+        except: pass
+        context.close()
+        
+        # 실시간 저장
+        with open("data.json", "w", encoding="utf-8") as f:
+            json.dump(all_projects, f, ensure_ascii=False, indent=4)
 
     browser.close()
-    with open("data.json", "w", encoding="utf-8") as f:
-        json.dump(all_projects, f, ensure_ascii=False, indent=4)
-    print(f"\n수집 완료! 총 {len(all_projects)}개 항목 준비됨.")
+    print(f"\n수집 완료! 총 {len(all_projects)}개 항목.")
 
 with sync_playwright() as playwright:
     run(playwright)
