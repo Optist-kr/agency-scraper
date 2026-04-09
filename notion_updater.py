@@ -1,16 +1,25 @@
 import json
 import os
 import requests
-from datetime import datetime  # 💡 날짜 계산을 위해 추가
+from datetime import datetime
 
 NOTION_TOKEN = os.environ.get("NOTION_TOKEN")
 DATABASE_ID = "33cce71c8a0180bbb1caffa718dcc1ad"
 REPO_NAME = os.environ.get("GITHUB_REPOSITORY")
 
+def get_existing_links():
+    url = f"https://api.notion.com/v1/databases/{DATABASE_ID}/query"
+    headers = {
+        "Authorization": f"Bearer {NOTION_TOKEN}",
+        "Content-Type": "application/json",
+        "Notion-Version": "2022-06-28"
+    }
+    response = requests.post(url, headers=headers)
+    if response.status_code != 200: return []
+    return [page["properties"]["Link"]["url"] for page in response.json().get("results", []) if page["properties"]["Link"]["url"]]
+
 def add_to_notion(item):
     image_url = f"https://raw.githubusercontent.com/{REPO_NAME}/main/{item['screenshot_local']}"
-    
-    # 💡 오늘 날짜를 "YYYY-MM-DD" 형식으로 가져옵니다.
     today = datetime.now().strftime("%Y-%m-%d")
 
     headers = {
@@ -29,7 +38,6 @@ def add_to_notion(item):
             "제품군": {"select": {"name": item.get("product_type", "기타 산업")}},
             "디자인 종류": {"select": {"name": item.get("design_type", "분류 안됨")}},
             "구분": {"select": {"name": item.get("region", "해외")}},
-            # 💡 [새 기능] 노션의 '등록일' 칸에 오늘 날짜를 넣습니다.
             "등록일": {"date": {"start": today}}
         },
         "children": [
@@ -46,21 +54,7 @@ def add_to_notion(item):
         ]
     }
     
-    response = requests.post("https://api.notion.com/v1/pages", headers=headers, json=data)
-    if response.status_code != 200:
-        print(f"노션 업로드 에러 ({item['title']}): {response.text}")
-
-# 중복 체크 로직 포함 (기존에 있던 데이터는 날짜가 업데이트되지 않도록 보호)
-def get_existing_links():
-    url = f"https://api.notion.com/v1/databases/{DATABASE_ID}/query"
-    headers = {
-        "Authorization": f"Bearer {NOTION_TOKEN}",
-        "Content-Type": "application/json",
-        "Notion-Version": "2022-06-28"
-    }
-    response = requests.post(url, headers=headers)
-    if response.status_code != 200: return []
-    return [page["properties"]["Link"]["url"] for page in response.json().get("results", []) if page["properties"]["Link"]["url"]]
+    requests.post("https://api.notion.com/v1/pages", headers=headers, json=data)
 
 def main():
     with open("data.json", "r", encoding="utf-8") as f:
@@ -69,7 +63,6 @@ def main():
     existing_links = get_existing_links()
     
     for item in data:
-        # 💡 이미 노션에 있는 프로젝트라면 건너뜁니다 (기존 데이터 날짜 보호)
         if item["link"] in existing_links:
             continue
         add_to_notion(item)
