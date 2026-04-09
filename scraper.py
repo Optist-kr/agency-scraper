@@ -4,7 +4,7 @@ import os
 from urllib.parse import urljoin, urlparse
 from playwright.sync_api import sync_playwright
 
-# 💡 [업그레이드] 이제 /work 같은 상세 주소 없이 '메인 홈페이지'만 넣어도 알아서 찾아냅니다!
+# 💡 22개 에이전시의 [메인 홈페이지 주소]만 입력합니다. (상세 주소 불필요)
 SITES = [
     {"name": "Landor", "url": "https://landor.com/", "region": "해외"},
     {"name": "Interbrand", "url": "https://www.interbrand.com/", "region": "해외"},
@@ -31,16 +31,20 @@ SITES = [
     {"name": "Plus X", "url": "https://www.plus-ex.com/", "region": "국내"}
 ]
 
-# 💡 [핵심] 전 세계 에이전시들이 쓰는 포트폴리오 용어 사전
-PORTFOLIO_KEYWORDS = ['work', 'works', 'project', 'projects', 'case', 'cases', 'portfolio', 'archive', 'story', 'stories', 'selected']
+# 💡 다양한 포트폴리오 용어 사전 (혜진님 요청 사항 반영)
+PORTFOLIO_KEYWORDS = ['work', 'works', 'project', 'projects', 'case', 'cases', 'portfolio', 'archive', 'story', 'stories', 'selected', 'our-work']
 
-# 💡 [핵심] 절대 들어가면 안 되는 메뉴 용어 사전
-IGNORE_KEYWORDS = ['about', 'contact', 'news', 'profile', 'career', 'team', 'service', 'privacy', 'studio', 'info', 'insight', 'people', 'culture', 'jobs']
+# 💡 포트폴리오로 착각하면 안 되는 메뉴들
+IGNORE_KEYWORDS = [
+    'about', 'contact', 'news', 'profile', 'career', 'team', 'service', 'privacy', 
+    'studio', 'info', 'insight', 'people', 'culture', 'jobs', 'terms', 'policy', 
+    'facebook', 'instagram', 'twitter', 'linkedin', 'journal', 'ideas', 'approach', 
+    'store', 'clients', 'awards', 'expertise', 'capabilities', 'publications'
+]
 
 def categorize_project(title, text):
     content = (title + " " + text).lower()
     
-    # 1. 산업/제품군 (12개 카테고리로 세분화)
     product = "기타 산업"
     if any(w in content for w in ["sport", "golf", "tennis", "athletic", "nike", "adidas", "스포츠", "골프", "운동", "피트니스", "아웃도어"]): product = "스포츠/레저"
     elif any(w in content for w in ["auto", "car", "mobility", "vehicle", "motor", "자동차", "모빌리티", "차량"]): product = "자동차/모빌리티"
@@ -55,7 +59,6 @@ def categorize_project(title, text):
     elif any(w in content for w in ["edu", "school", "university", "academy", "교육", "학교", "대학", "학원"]): product = "교육/학습"
     elif any(w in content for w in ["public", "gov", "city", "museum", "공공기관", "정부", "도시", "박물관", "미술관"]): product = "공공/문화"
 
-    # 2. 디자인 종류 (7개로 세분화)
     design = "브랜드 경험/전략"
     if any(w in content for w in ["packaging", "package", "label", "패키지"]): design = "패키지 디자인"
     elif any(w in content for w in ["ui", "ux", "website", "digital experience", "웹", "앱 디자인", "디지털"]): design = "UI/UX 디자인"
@@ -79,12 +82,12 @@ def run(playwright):
 
     for site in SITES:
         try:
-            print(f"\n--- {site['name']} ({site['region']}) 탐색 시작 ---")
+            print(f"\n--- {site['name']} ({site['region']}) 스마트 탐색 시작 ---")
             page.goto(site['url'], wait_until="networkidle", timeout=60000)
             time.sleep(4)
             
-            # 홈페이지 메인에서 링크 탐색
-            for _ in range(3):
+            # 메인 페이지에서 스크롤하며 숨겨진 링크 확보
+            for _ in range(5):
                 page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
                 time.sleep(2)
 
@@ -96,17 +99,19 @@ def run(playwright):
                     href = link.get_attribute("href")
                     if not href: continue
                     
-                    full_url = urljoin(site['url'], href)
+                    full_url = urljoin(site['url'], href).split('#')[0].split('?')[0]
                     
-                    # 💡 스마트 필터링 1: 외부 사이트 링크 버리기
+                    # 1. 외부 링크 제외
                     if urlparse(full_url).netloc != urlparse(site['url']).netloc: continue
-                    
-                    # 💡 스마트 필터링 2: 쓸데없는 메뉴(about 등) 버리기
+                    # 2. 홈페이지 자체 제외
+                    if full_url.rstrip('/') == site['url'].rstrip('/'): continue
+                    # 3. 무시할 키워드 제외
                     if any(ig in full_url.lower() for ig in IGNORE_KEYWORDS): continue
                     
-                    # 💡 스마트 필터링 3: URL을 단어 단위로 쪼개서 포트폴리오 키워드가 있는지 정확히 검사!
-                    # (예: /our-work/apple -> ['our', 'work', 'apple'] 로 쪼갠 뒤 검사)
+                    # 💡 4. URL 구조 분석: 포트폴리오 키워드가 포함되어 있고, 하위 경로(세부 프로젝트)인지 확인
                     url_segments = full_url.lower().replace('-', ' ').replace('_', ' ').split('/')
+                    # 빈 문자열 제거
+                    url_segments = [s for s in url_segments if s] 
                     
                     has_portfolio_keyword = False
                     for segment in url_segments:
@@ -115,18 +120,19 @@ def run(playwright):
                             has_portfolio_keyword = True
                             break
                     
-                    # 키워드가 포함되어 있고, 단순히 목록 페이지가 아니라 상세 페이지인 경우(URL 길이가 긴 경우)
-                    if has_portfolio_keyword and len(url_segments) > 4:
-                        if "#" not in full_url and "?" not in full_url:
-                            project_urls.add(full_url)
+                    # 도메인 제외하고 경로가 2단계 이상이면 '세부 프로젝트'로 간주 (예: /work/lego)
+                    path_segments = urlparse(full_url).path.strip('/').split('/')
+                    if has_portfolio_keyword and len(path_segments) >= 2:
+                        project_urls.add(full_url)
                 except: pass
 
             project_urls = list(project_urls)
-            print(f"포트폴리오 관련 하위 링크 {len(project_urls)}개 발견 (최대 5개 수집)")
+            print(f"세부 프로젝트 링크 {len(project_urls)}개 발견")
 
-            for i, p_url in enumerate(project_urls[:5]):
+            # 사이트당 최대 30개씩 수집
+            for i, p_url in enumerate(project_urls[:30]):
                 try:
-                    print(f"[{i+1}/5] 수집 중: {p_url}")
+                    print(f"[{i+1}/{min(len(project_urls), 30)}] 수집 중: {p_url}")
                     detail_page = context.new_page()
                     detail_page.goto(p_url, wait_until="networkidle", timeout=60000)
                     time.sleep(3)
@@ -168,7 +174,7 @@ def run(playwright):
     browser.close()
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(all_projects, f, ensure_ascii=False, indent=4)
-    print(f"\n완료! 총 {len(all_projects)}개의 작업물이 저장되었습니다.")
+    print(f"\n수집 완료! 총 {len(all_projects)}개 항목 준비됨.")
 
 with sync_playwright() as playwright:
     run(playwright)
