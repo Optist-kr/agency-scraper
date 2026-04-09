@@ -1,12 +1,11 @@
 [
     {
         "agency": "Landor",
-        "title": "Huawei",
-        "link": "https://landor.com/en/our-work/huawei/",
+        "title": "Nike Kids",
+        "link": "https://landor.com/en/our-work/nike-kids/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_0_Huawei.png",
-        "product_type": "IT/테크",
-        "design_type": "공간/전시 디자인",
+        "product_type": "스포츠/레저",
+        "design_type": "영상/모션 그래픽",
         "region": "해외"
     },
     {
@@ -14,69 +13,44 @@
         "title": "iz",
         "link": "https://landor.com/en/our-work/iz/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_1_iz.png",
         "product_type": "IT/테크",
         "design_type": "영상/모션 그래픽",
         "region": "해외"
     },
     {
         "agency": "Landor",
-        "title": "Burson",
-        "link": "https://landor.com/en/our-work/burson/",
+        "title": "Syensqo",
+        "link": "https://landor.com/en/our-work/syensqo/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_2_Burson.png",
         "product_type": "IT/테크",
-        "design_type": "로고/아이덴티티",
+        "design_type": "영상/모션 그래픽",
         "region": "해외"
     },
     {
         "agency": "Landor",
-        "title": "KitKat",
-        "link": "https://landor.com/en/our-work/kitkat/",
+        "title": "Join us",
+        "link": "https://landor.com/en/join-us/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_3_KitKat.png",
-        "product_type": "식음료(F&B)",
+        "product_type": "금융/핀테크",
         "design_type": "패키지 디자인",
         "region": "해외"
     },
     {
         "agency": "Landor",
-        "title": "Orchestre De Chambre de Paris",
-        "link": "https://landor.com/en/our-work/orchestre-de-chambre-de-paris/",
+        "title": "Reykjavik Global Forum",
+        "link": "https://landor.com/en/our-work/reykjavik-global-forum/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_4_OrchestreDeChambredeParis.png",
         "product_type": "IT/테크",
-        "design_type": "UI/UX 디자인",
+        "design_type": "광고/캠페인",
         "region": "해외"
     },
     {
         "agency": "Landor",
-        "title": "Opella",
-        "link": "https://landor.com/en/our-work/opella/",
+        "title": "Lobos 1707",
+        "link": "https://landor.com/en/our-work/lobos-1707/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_5_Opella.png",
         "product_type": "IT/테크",
-        "design_type": "UI/UX 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Landor",
-        "title": "Volkswagen Group",
-        "link": "https://landor.com/en/our-work/volkswagen-group/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_6_VolkswagenGroup.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Landor",
-        "title": "TATA.ev",
-        "link": "https://landor.com/en/our-work/tataev/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_7_TATAev.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "영상/모션 그래픽",
+        "design_type": "패키지 디자인",
         "region": "해외"
     },
     {
@@ -84,9 +58,62 @@
         "title": "Elica",
         "link": "https://landor.com/en/our-work/elica/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_8_Elica.png",
         "product_type": "IT/테크",
         "design_type": "로고/아이덴티티",
+        "region": "해외"
+    },
+    {
+        "agency": "Landor",
+        "title": "Topo Chico",
+        "link": "https://landor.com/en/our-work/topo-chico/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "product_type": "식음료(F&B)",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Landor",
+        "title": "Volkswagen Group",
+        "link": "https://landor.com/en/our-work/volkswagen-group/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "product_type": "자동차/모빌리티",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Landor",
+        "title": "Saudia Airlines",
+        "link": "https://landor.com/en/our-work/saudia-airlines/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Landor",
+        "title": "KitKat",
+        "link": "https://landor.com/en/our-work/kitkat/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "product_type": "식음료(F&B)",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Landor",
+        "title": "Milan Symphony Orchestra",
+        "link": "https://landor.com/en/our-work/milan-symphony-orchestra/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "product_type": "IT/테크",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Landor",
+        "title": "Lynk & Co",
+        "link": "https://landor.com/en/our-work/lynk-co/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "product_type": "자동차/모빌리티",
+        "design_type": "브랜드 경험/전략",
         "region": "해외"
     },
     {
@@ -94,7 +121,6 @@
         "title": "West Loop",
         "link": "https://landor.com/en/our-work/west-loop/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_9_WestLoop.png",
         "product_type": "IT/테크",
         "design_type": "UI/UX 디자인",
         "region": "해외"
@@ -104,9 +130,17 @@
         "title": "Modern Slavery Act",
         "link": "https://landor.com/en/modern-slavery-act/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_10_ModernSlaveryAct.png",
         "product_type": "유아동/키즈",
         "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Landor",
+        "title": "Walmart",
+        "link": "https://landor.com/en/our-work/walmart/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "product_type": "IT/테크",
+        "design_type": "브랜드 경험/전략",
         "region": "해외"
     },
     {
@@ -114,69 +148,17 @@
         "title": "Misura",
         "link": "https://landor.com/en/our-work/misura/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_11_Misura.png",
         "product_type": "식음료(F&B)",
         "design_type": "패키지 디자인",
         "region": "해외"
     },
     {
         "agency": "Landor",
-        "title": "Lynk & Co",
-        "link": "https://landor.com/en/our-work/lynk-co/",
+        "title": "Burson",
+        "link": "https://landor.com/en/our-work/burson/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_12_LynkCo.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "브랜드 경험/전략",
-        "region": "해외"
-    },
-    {
-        "agency": "Landor",
-        "title": "Syensqo",
-        "link": "https://landor.com/en/our-work/syensqo/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_13_Syensqo.png",
         "product_type": "IT/테크",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Landor",
-        "title": "Imperia",
-        "link": "https://landor.com/en/our-work/imperia/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_14_Imperia.png",
-        "product_type": "IT/테크",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Landor",
-        "title": "Kellogg's",
-        "link": "https://landor.com/en/our-work/kelloggs/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_15_Kelloggs.png",
-        "product_type": "IT/테크",
-        "design_type": "패키지 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Landor",
-        "title": "{access}ories",
-        "link": "https://landor.com/en/our-work/access-ories/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_16_accessories.png",
-        "product_type": "IT/테크",
-        "design_type": "UI/UX 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Landor",
-        "title": "Join us",
-        "link": "https://landor.com/en/join-us/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_17_Joinus.png",
-        "product_type": "금융/핀테크",
-        "design_type": "패키지 디자인",
+        "design_type": "로고/아이덴티티",
         "region": "해외"
     },
     {
@@ -184,67 +166,24 @@
         "title": "M&M'S",
         "link": "https://landor.com/en/our-work/mms/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_18_MMS.png",
         "product_type": "자동차/모빌리티",
         "design_type": "UI/UX 디자인",
         "region": "해외"
     },
     {
         "agency": "Landor",
-        "title": "QT",
-        "link": "https://landor.com/en/our-work/qt/",
+        "title": "Opella",
+        "link": "https://landor.com/en/our-work/opella/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_19_QT.png",
-        "product_type": "IT/테크",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Landor",
-        "title": "Saudia Airlines",
-        "link": "https://landor.com/en/our-work/saudia-airlines/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_20_SaudiaAirlines.png",
         "product_type": "IT/테크",
         "design_type": "UI/UX 디자인",
         "region": "해외"
     },
     {
         "agency": "Landor",
-        "title": "IUCN/SOS",
-        "link": "https://landor.com/en/our-work/iucnsos/",
+        "title": "bp",
+        "link": "https://landor.com/en/our-work/bp/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_21_IUCNSOS.png",
-        "product_type": "IT/테크",
-        "design_type": "로고/아이덴티티",
-        "region": "해외"
-    },
-    {
-        "agency": "Landor",
-        "title": "AO",
-        "link": "https://landor.com/en/our-work/ao/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_22_AO.png",
-        "product_type": "스포츠/레저",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Landor",
-        "title": "Renault",
-        "link": "https://landor.com/en/our-work/renault/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_23_Renault.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Landor",
-        "title": "Dr. Martens",
-        "link": "https://landor.com/en/our-work/dr-martens/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_24_DrMartens.png",
         "product_type": "IT/테크",
         "design_type": "공간/전시 디자인",
         "region": "해외"
@@ -254,29 +193,8 @@
         "title": "A&O Shearman",
         "link": "https://landor.com/en/our-work/ao-shearman/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_25_AOShearman.png",
         "product_type": "IT/테크",
         "design_type": "공간/전시 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Landor",
-        "title": "LeShuttle",
-        "link": "https://landor.com/en/our-work/leshuttle/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_26_LeShuttle.png",
-        "product_type": "IT/테크",
-        "design_type": "로고/아이덴티티",
-        "region": "해외"
-    },
-    {
-        "agency": "Landor",
-        "title": "Reykjavik Global Forum",
-        "link": "https://landor.com/en/our-work/reykjavik-global-forum/",
-        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_27_ReykjavikGlobalForum.png",
-        "product_type": "IT/테크",
-        "design_type": "광고/캠페인",
         "region": "해외"
     },
     {
@@ -284,97 +202,447 @@
         "title": "MYOM",
         "link": "https://landor.com/en/our-work/myom/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_28_MYOM.png",
         "product_type": "엔터/미디어",
         "design_type": "패키지 디자인",
         "region": "해외"
     },
     {
         "agency": "Landor",
-        "title": "Walmart",
-        "link": "https://landor.com/en/our-work/walmart/",
+        "title": "Orchestre De Chambre de Paris",
+        "link": "https://landor.com/en/our-work/orchestre-de-chambre-de-paris/",
         "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
-        "screenshot_local": "screenshots/Landor_29_Walmart.png",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Landor",
+        "title": "QT",
+        "link": "https://landor.com/en/our-work/qt/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "product_type": "IT/테크",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Landor",
+        "title": "nib",
+        "link": "https://landor.com/en/our-work/nib/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "product_type": "IT/테크",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Landor",
+        "title": "BANCOMAT",
+        "link": "https://landor.com/en/our-work/bancomat/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "product_type": "IT/테크",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Landor",
+        "title": "IUCN/SOS",
+        "link": "https://landor.com/en/our-work/iucnsos/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "product_type": "IT/테크",
+        "design_type": "로고/아이덴티티",
+        "region": "해외"
+    },
+    {
+        "agency": "Landor",
+        "title": "AO",
+        "link": "https://landor.com/en/our-work/ao/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "product_type": "스포츠/레저",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Landor",
+        "title": "TATA.ev",
+        "link": "https://landor.com/en/our-work/tataev/",
+        "thumbnail": "https://landor.com/_next/static/media/menu.df6d67fa.svg",
+        "product_type": "자동차/모빌리티",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Chubb",
+        "link": "https://www.wearecollins.com/case-studies/chubb",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/1cab23ee289093c1e4c7ba0394314f87bf9dbe38-1500x1000.jpg?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "IT/테크",
+        "design_type": "로고/아이덴티티",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Babyganics",
+        "link": "https://www.wearecollins.com/case-studies/babyganics",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/924e84a32f853dc80c519d5e22ff12bb0161ba03-1500x1000.jpg?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "유아동/키즈",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Muse Group",
+        "link": "https://www.wearecollins.com/case-studies/musegroup",
+        "thumbnail": "https://image.mux.com/NKB800T21txIvPn00Ox9zNlFGjq5QXE48A33vjUcOWaoY/thumbnail.webp?time=0&width=1866&height=1245 1866w",
         "product_type": "IT/테크",
         "design_type": "브랜드 경험/전략",
         "region": "해외"
     },
     {
-        "agency": "Interbrand",
-        "title": "Cookie Notice",
-        "link": "https://www.interbrand.com/cookie-notice",
-        "thumbnail": "",
-        "screenshot_local": "screenshots/Interbrand_0_CookieNotice.png",
+        "agency": "Collins",
+        "title": "Crane",
+        "link": "https://www.wearecollins.com/case-studies/crane",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/7de02155cea760396acf0a012a3c224f1375d1f0-3000x2000.jpg?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "기타 산업",
+        "design_type": "편집/인쇄물",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "CNET",
+        "link": "https://www.wearecollins.com/case-studies/cnet",
+        "thumbnail": "https://image.mux.com/C9AWZu2CppIqh0025auVdU7Hseciu02DsVoIPl5rS54RY/thumbnail.webp?time=0&width=1866&height=1245 1866w",
         "product_type": "IT/테크",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Twitch",
+        "link": "https://www.wearecollins.com/case-studies/twitch",
+        "thumbnail": "https://image.mux.com/p7riU7lNJ004Ydd00l00VDB02o4c2XUgCPMe7oPDl7xOl6U/thumbnail.webp?time=0&width=1866&height=1050 1866w",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "OYO",
+        "link": "https://www.wearecollins.com/case-studies/oyo",
+        "thumbnail": "https://image.mux.com/iykhAcDdCSohs6lqWTnZUjvaEKxCeZIDrQIfos1CHJI/thumbnail.webp?time=0&width=1866&height=1244 1866w",
+        "product_type": "IT/테크",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Target: Heyday",
+        "link": "https://www.wearecollins.com/case-studies/heyday",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/51bb78dd14da4395f61ec35fb736d8392f798dcf-1300x867.jpg?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Equinox",
+        "link": "https://www.wearecollins.com/case-studies/equinox",
+        "thumbnail": "https://image.mux.com/fQ00POLiQI6ferLwEIXX012MXGFdl5YNdtL5VK00Nxjz02k/thumbnail.webp?time=0&width=1866&height=1050 1866w",
+        "product_type": "IT/테크",
+        "design_type": "광고/캠페인",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Mailchimp",
+        "link": "https://www.wearecollins.com/case-studies/mailchimp",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/43e167284cdd73c88486f89bd86cddccb35aa82d-1300x867.gif?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "IT/테크",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "YouTube Gaming",
+        "link": "https://www.wearecollins.com/case-studies/youtube-gaming",
+        "thumbnail": "https://image.mux.com/UX01mZ3ngRf51xoG4fnxL01GUA4R7EnAMetg4kBiyPXPM/thumbnail.webp?time=0&width=1866&height=1245 1866w",
+        "product_type": "엔터/미디어",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Match",
+        "link": "https://www.wearecollins.com/case-studies/match",
+        "thumbnail": "https://image.mux.com/jbnFlJbCT8kpEAFtk2kksSAIlGqzC8laNXB31fMX11U/thumbnail.webp?time=0&width=1866&height=1245 1866w",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Programs",
+        "link": "https://www.wearecollins.com/programs",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/ddc986a7cca0c16151497571a84262285ee1f304-960x1200.jpg?crop=center&hotspot=null&w=600&h=750&fit=crop&auto=format",
+        "product_type": "IT/테크",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Freeform",
+        "link": "https://www.wearecollins.com/case-studies/freeform",
+        "thumbnail": "https://image.mux.com/67qdrhYX1giiQvvr200dgfCRXSwgWQOruFDGRs8Qqp800/thumbnail.webp?time=0&width=1866&height=1050 1866w",
+        "product_type": "엔터/미디어",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "ESPN",
+        "link": "https://www.wearecollins.com/case-studies/espn",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/eae6ef591b1c64c248f1a83f972ff02be7ff281d-1500x1000.gif?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "San Francisco Symphony",
+        "link": "https://www.wearecollins.com/case-studies/san-francisco-symphony",
+        "thumbnail": "https://image.mux.com/8cCPUkeK9xW3w5XGmpxHAFMRaDJfq1zRW3eiedq8BMA/thumbnail.webp?time=0&width=1866&height=1050 1866w",
+        "product_type": "IT/테크",
+        "design_type": "로고/아이덴티티",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Girl Scouts",
+        "link": "https://www.wearecollins.com/case-studies/girl-scouts",
+        "thumbnail": "https://image.mux.com/2ZjJFz7tFJyTkFpI95IDbYrAqDZZ1Sn6tO7yAgS1fLw/thumbnail.webp?time=0&width=1866&height=1245 1866w",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Sweetgreen",
+        "link": "https://www.wearecollins.com/case-studies/sweetgreen",
+        "thumbnail": "https://image.mux.com/eWbEggXsKUlkrvQ5Y8l000222JEBgXf4pHniL2RKOqAxM/thumbnail.webp?time=0&width=1866&height=1245 1866w",
+        "product_type": "식음료(F&B)",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Target: Room Essentials",
+        "link": "https://www.wearecollins.com/case-studies/roomessentials",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/ce3705d01b81375469e6153ad04513345475ee2d-2370x1581.jpg?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "IT/테크",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Spotify",
+        "link": "https://www.wearecollins.com/case-studies/spotify",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/eef98d3acb5b043ad5a7c244dc5ef930c7ad184f-2400x1920.png?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "엔터/미디어",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Primary",
+        "link": "https://www.wearecollins.com/case-studies/primary",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/b7427b3951925837b5aff674ca50d854a5c77ad1-1760x1173.jpg?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "패션/의류",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Cora",
+        "link": "https://www.wearecollins.com/case-studies/cora",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/e03a7c50b7aaaf330fc286df429a7f762aa1d7af-3000x2000.jpg?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "의료/헬스케어",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Target: Modern by Dwell",
+        "link": "https://www.wearecollins.com/case-studies/modern-by-dwell",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/55af335d65d1f5b197692f86819c835c3a65917b-3000x2000.jpg?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "기타 산업",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Avon",
+        "link": "https://www.wearecollins.com/case-studies/avon",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/21a18ec48f491010e6a4a9e6eea41ddc54f033cd-3000x2000.jpg?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "화장품/뷰티",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Nike",
+        "link": "https://www.wearecollins.com/case-studies/nike-run-club",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/f61ef75ea50f3d7d6484e3a5205e9ab45d615bde-3000x2000.jpg?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "스포츠/레저",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Target: A New Day",
+        "link": "https://www.wearecollins.com/case-studies/target-a-new-day",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/e68240ae4f44ca7b76f7247989bdec1d53fcfbaa-814x1100.png?crop=center&hotspot=null&w=1000&h=1500&fit=crop&auto=format",
+        "product_type": "IT/테크",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Helios House",
+        "link": "https://www.wearecollins.com/case-studies/helios-house",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/108a65ad939a852c1e08af62ae3937ef3e5e9ab2-2500x1584.jpg?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Ogilvy",
+        "link": "https://www.wearecollins.com/case-studies/ogilvy",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/2c1d0e098c2d1288defe8a9dfcc84e4f05e85121-3000x2000.jpg?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Naturalizer",
+        "link": "https://www.wearecollins.com/case-studies/naturalizer",
+        "thumbnail": "https://cdn.sanity.io/images/fmzd4n68/production/80f363bf0ec951d930f83941079c030a007a5955-1500x1000.gif?crop=center&hotspot=null&w=1600&h=1066&fit=crop&auto=format",
+        "product_type": "IT/테크",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Collins",
+        "title": "Target: More Than Magic",
+        "link": "https://www.wearecollins.com/case-studies/target-more-than-magic",
+        "thumbnail": "https://image.mux.com/5RrBwF5tncwPmm0202UWnl8ENg7SIhIgrC4AbkK021bQSc/thumbnail.webp?time=0&width=1866&height=1050 1866w",
+        "product_type": "패션/의류",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "Nike au Centre Pompidou",
+        "link": "https://www.portorocha.com/nikepompidou",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
+        "product_type": "스포츠/레저",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "Church",
+        "link": "https://www.portorocha.com/church",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
+        "product_type": "스포츠/레저",
         "design_type": "UI/UX 디자인",
         "region": "해외"
     },
     {
         "agency": "Porto Rocha",
-        "title": "Melissa",
-        "link": "https://www.portorocha.com/melissa",
+        "title": "Robinhood Market",
+        "link": "https://www.portorocha.com/robinhood-market",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_0_Melissa.png",
-        "product_type": "스포츠/레저",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "Nike Run",
-        "link": "https://www.portorocha.com/nikerun",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_1_NikeRun.png",
-        "product_type": "스포츠/레저",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "Gemini",
-        "link": "https://www.portorocha.com/gemini",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_2_Gemini.png",
         "product_type": "스포츠/레저",
         "design_type": "UI/UX 디자인",
         "region": "해외"
     },
     {
         "agency": "Porto Rocha",
-        "title": "W Hotels",
-        "link": "https://www.portorocha.com/whotels",
+        "title": "Tudum Global",
+        "link": "https://www.portorocha.com/tudum-global",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_3_WHotels.png",
         "product_type": "스포츠/레저",
         "design_type": "영상/모션 그래픽",
         "region": "해외"
     },
     {
         "agency": "Porto Rocha",
-        "title": "Samba",
-        "link": "https://www.portorocha.com/samba",
+        "title": "QUILO",
+        "link": "https://www.portorocha.com/quilo",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_4_Samba.png",
         "product_type": "스포츠/레저",
         "design_type": "영상/모션 그래픽",
         "region": "해외"
     },
     {
         "agency": "Porto Rocha",
-        "title": "Olympikus",
-        "link": "https://www.portorocha.com/olympikus",
+        "title": "PAC NYC",
+        "link": "https://www.portorocha.com/pacnyc",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_5_Olympikus.png",
+        "product_type": "스포츠/레저",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "Melissa Flygrl",
+        "link": "https://www.portorocha.com/melissa-flygrl",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
         "product_type": "스포츠/레저",
         "design_type": "패키지 디자인",
         "region": "해외"
     },
     {
         "agency": "Porto Rocha",
-        "title": "Robinhood",
-        "link": "https://www.portorocha.com/robinhood",
+        "title": "ℓiⱴε",
+        "link": "https://www.portorocha.com/ie",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_6_Robinhood.png",
+        "product_type": "스포츠/레저",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "Nothing Precious",
+        "link": "https://www.portorocha.com/nothingprecious",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
+        "product_type": "스포츠/레저",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "Kunsthalle Basel",
+        "link": "https://www.portorocha.com/kunsthallebasel",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
+        "product_type": "스포츠/레저",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "QuintoAndar",
+        "link": "https://www.portorocha.com/quintoandar",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
+        "product_type": "스포츠/레저",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "Chani Nicholas: You Were Born For This",
+        "link": "https://www.portorocha.com/chani-nicholas-you-were-born-for-this",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
         "product_type": "스포츠/레저",
         "design_type": "영상/모션 그래픽",
         "region": "해외"
@@ -384,127 +652,24 @@
         "title": "Netflix Is a Joke: The Festival",
         "link": "https://www.portorocha.com/netflixisajoke",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_7_NetflixIsaJokeTheFestival.png",
         "product_type": "스포츠/레저",
         "design_type": "영상/모션 그래픽",
         "region": "해외"
     },
     {
         "agency": "Porto Rocha",
-        "title": "QuintoAndar",
-        "link": "https://www.portorocha.com/quintoandar",
+        "title": "Nike Run",
+        "link": "https://www.portorocha.com/nikerun",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_8_QuintoAndar.png",
         "product_type": "스포츠/레저",
         "design_type": "영상/모션 그래픽",
         "region": "해외"
     },
     {
         "agency": "Porto Rocha",
-        "title": "YAGA",
-        "link": "https://www.portorocha.com/yaga",
+        "title": "Melissa",
+        "link": "https://www.portorocha.com/melissa",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_9_YAGA.png",
-        "product_type": "스포츠/레저",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "VEEPS",
-        "link": "https://www.portorocha.com/veeps",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_10_VEEPS.png",
-        "product_type": "스포츠/레저",
-        "design_type": "UI/UX 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "Kunsthalle Basel",
-        "link": "https://www.portorocha.com/kunsthallebasel",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_11_KunsthalleBasel.png",
-        "product_type": "스포츠/레저",
-        "design_type": "UI/UX 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "ℓiⱴε",
-        "link": "https://www.portorocha.com/ie",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_12_ℓiⱴε.png",
-        "product_type": "스포츠/레저",
-        "design_type": "UI/UX 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "Twitch",
-        "link": "https://www.portorocha.com/twitch",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_13_Twitch.png",
-        "product_type": "스포츠/레저",
-        "design_type": "UI/UX 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "Museu Nacional",
-        "link": "https://www.portorocha.com/museu-nacional",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_14_MuseuNacional.png",
-        "product_type": "스포츠/레저",
-        "design_type": "패키지 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "Church",
-        "link": "https://www.portorocha.com/church",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_15_Church.png",
-        "product_type": "스포츠/레저",
-        "design_type": "UI/UX 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "Netflix Tudum",
-        "link": "https://www.portorocha.com/netflix-tudum",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_16_NetflixTudum.png",
-        "product_type": "스포츠/레저",
-        "design_type": "UI/UX 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "Brooklyn Rail",
-        "link": "https://www.portorocha.com/brooklynrail",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_17_BrooklynRail.png",
-        "product_type": "스포츠/레저",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "Tudum Global",
-        "link": "https://www.portorocha.com/tudum-global",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_18_TudumGlobal.png",
-        "product_type": "스포츠/레저",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "Pollen",
-        "link": "https://www.portorocha.com/pollen",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_19_Pollen.png",
         "product_type": "스포츠/레저",
         "design_type": "영상/모션 그래픽",
         "region": "해외"
@@ -514,37 +679,96 @@
         "title": "Brazilian Homo",
         "link": "https://www.portorocha.com/brazilianhomo",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_20_BrazilianHomo.png",
         "product_type": "스포츠/레저",
         "design_type": "영상/모션 그래픽",
         "region": "해외"
     },
     {
         "agency": "Porto Rocha",
-        "title": "LUNGE",
-        "link": "https://www.portorocha.com/lunge",
+        "title": "BPM",
+        "link": "https://www.portorocha.com/bpm",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_21_LUNGE.png",
+        "product_type": "스포츠/레저",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "Brooklyn Rail",
+        "link": "https://www.portorocha.com/brooklynrail",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
+        "product_type": "스포츠/레저",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "Electric Sky",
+        "link": "https://www.portorocha.com/electric-sky",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
         "product_type": "스포츠/레저",
         "design_type": "패키지 디자인",
         "region": "해외"
     },
     {
         "agency": "Porto Rocha",
-        "title": "Vevo",
-        "link": "https://www.portorocha.com/vevo",
+        "title": "Museu Nacional",
+        "link": "https://www.portorocha.com/museu-nacional",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_22_Vevo.png",
+        "product_type": "스포츠/레저",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "W Hotels",
+        "link": "https://www.portorocha.com/whotels",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
         "product_type": "스포츠/레저",
         "design_type": "영상/모션 그래픽",
         "region": "해외"
     },
     {
         "agency": "Porto Rocha",
-        "title": "MASP",
-        "link": "https://www.portorocha.com/masp",
+        "title": "Airbnb Tyrus",
+        "link": "https://www.portorocha.com/airbnb-tyrus",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_23_MASP.png",
+        "product_type": "스포츠/레저",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "Gemini",
+        "link": "https://www.portorocha.com/gemini",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
+        "product_type": "스포츠/레저",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "Nike Be True",
+        "link": "https://www.portorocha.com/nikebetrue",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
+        "product_type": "스포츠/레저",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "Pollen",
+        "link": "https://www.portorocha.com/pollen",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
+        "product_type": "스포츠/레저",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Porto Rocha",
+        "title": "GRAU",
+        "link": "https://www.portorocha.com/grau",
+        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
         "product_type": "스포츠/레저",
         "design_type": "UI/UX 디자인",
         "region": "해외"
@@ -554,17 +778,15 @@
         "title": "Shop",
         "link": "https://www.portorocha.com/shop",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_24_Shop.png",
         "product_type": "스포츠/레저",
         "design_type": "패키지 디자인",
         "region": "해외"
     },
     {
         "agency": "Porto Rocha",
-        "title": "Hiro",
-        "link": "https://www.portorocha.com/hiro",
+        "title": "Vevo",
+        "link": "https://www.portorocha.com/vevo",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_25_Hiro.png",
         "product_type": "스포츠/레저",
         "design_type": "영상/모션 그래픽",
         "region": "해외"
@@ -574,48 +796,52 @@
         "title": "Design Threads",
         "link": "https://www.portorocha.com/design-threads",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_26_DesignThreads.png",
         "product_type": "스포츠/레저",
         "design_type": "영상/모션 그래픽",
         "region": "해외"
     },
     {
         "agency": "Porto Rocha",
-        "title": "Bonde",
-        "link": "https://www.portorocha.com/bonde",
+        "title": "Hiro",
+        "link": "https://www.portorocha.com/hiro",
         "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_27_Bonde.png",
-        "product_type": "스포츠/레저",
-        "design_type": "UI/UX 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "Melissa Flygrl",
-        "link": "https://www.portorocha.com/melissa-flygrl",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_28_MelissaFlygrl.png",
-        "product_type": "스포츠/레저",
-        "design_type": "패키지 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Porto Rocha",
-        "title": "Comrade",
-        "link": "https://www.portorocha.com/comrade",
-        "thumbnail": "https://www.portorocha.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Fportorocha%2FaaHBr8FoBIGEg7nM_RobinhoodStore_Thumbnail.jpg?auto=format,compress%26v=dpl_J2D8GjzuaGnL2Xs5jKuejsYahfCR&w=65&q=90",
-        "screenshot_local": "screenshots/Porto Rocha_29_Comrade.png",
         "product_type": "스포츠/레저",
         "design_type": "영상/모션 그래픽",
         "region": "해외"
     },
     {
         "agency": "Gretel",
-        "title": "Nike Membership — Gretel",
-        "link": "https://gretelny.com/nike-membership",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/61ce4ae4-cacc-45d1-8e50-f2be0de6e31e/Serena_01.jpg",
-        "screenshot_local": "screenshots/Gretel_1_NikeMembershipGretel.png",
-        "product_type": "스포츠/레저",
+        "title": "Hija de Sanchez — Gretel",
+        "link": "https://gretelny.com/hija-de-sanchez",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/25300ebe-7bc0-4f84-93ca-a314cdd80b64/01_Hija_A_Frame_Sign.jpg",
+        "product_type": "식음료(F&B)",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Gretel",
+        "title": "Crystal Bridges — Gretel",
+        "link": "https://gretelny.com/crystal-bridges",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/5d546353-688b-42b8-a9cb-14bd320a1690/17_CBMO_Book.png",
+        "product_type": "화장품/뷰티",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Gretel",
+        "title": "Noom — Gretel",
+        "link": "https://gretelny.com/noom",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/d08d38ab-ecba-4554-a7e9-a56c9b6934b6/Brand_Book_4x3_v4.jpg",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Gretel",
+        "title": "GoodRx — Gretel",
+        "link": "https://gretelny.com/goodrx",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1666637966329-K1CBION8IQM4BJY08HG0/GoodRx_Case_Study_01.jpg",
+        "product_type": "의료/헬스케어",
         "design_type": "로고/아이덴티티",
         "region": "해외"
     },
@@ -624,119 +850,8 @@
         "title": "WeWork — Gretel",
         "link": "https://gretelny.com/wework",
         "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1549668875368-FQF74TO6D5MOJ1J4URK8/WeWork_Hero_Image_01.jpg",
-        "screenshot_local": "screenshots/Gretel_3_WeWorkGretel.png",
         "product_type": "IT/테크",
         "design_type": "공간/전시 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Gretel",
-        "title": "21st Century Fox — Gretel",
-        "link": "https://gretelny.com/21st-century-fox",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1529094238533-07R9TLK4RXMR9RL8OGE7/Upload_01.jpg",
-        "screenshot_local": "screenshots/Gretel_4_21stCenturyFoxGretel.png",
-        "product_type": "IT/테크",
-        "design_type": "UI/UX 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Gretel",
-        "title": "Channel 5 — Gretel",
-        "link": "https://gretelny.com/channel-5",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1521054930783-J75QPDVSHCUT407CKTF0/image-asset.jpeg",
-        "screenshot_local": "screenshots/Gretel_5_Channel5Gretel.png",
-        "product_type": "IT/테크",
-        "design_type": "브랜드 경험/전략",
-        "region": "해외"
-    },
-    {
-        "agency": "Gretel",
-        "title": "Company — Gretel",
-        "link": "https://gretelny.com/company",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/50a23515-3fa2-420d-8543-194cd6c82f25/_68A7146.jpg",
-        "screenshot_local": "screenshots/Gretel_6_CompanyGretel.png",
-        "product_type": "스포츠/레저",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Gretel",
-        "title": "Rhode Island School of Design (RISD) — Gretel",
-        "link": "https://gretelny.com/risd",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1fb6bcd3-d7b5-4fb6-bccd-484988bd0675/RISD_Guideline_Assets_01.jpg",
-        "screenshot_local": "screenshots/Gretel_7_RhodeIslandSchoolofDesignRISDGretel.png",
-        "product_type": "자동차/모빌리티",
-        "design_type": "공간/전시 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Gretel",
-        "title": "Winter Wonderland — Gretel",
-        "link": "https://gretelny.com/winter-wonderland",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/81d5d9a3-e707-4b5e-afe7-cf874442dd52/WinterWonderland_Case_Study_01.jpg",
-        "screenshot_local": "screenshots/Gretel_8_WinterWonderlandGretel.png",
-        "product_type": "엔터/미디어",
-        "design_type": "공간/전시 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Gretel",
-        "title": "Hart Bageri — Gretel",
-        "link": "https://gretelny.com/hart-bageri-expansion",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/b18cb275-accb-40fb-9515-60c2845c99fb/01_HART_Storefront.jpg",
-        "screenshot_local": "screenshots/Gretel_10_HartBageriGretel.png",
-        "product_type": "IT/테크",
-        "design_type": "패키지 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Gretel",
-        "title": "PayPal — Gretel",
-        "link": "https://gretelny.com/paypal",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/d7cad48a-c9a7-4b21-8924-d9af33458050/PayPal_Sticker.jpg",
-        "screenshot_local": "screenshots/Gretel_11_PayPalGretel.png",
-        "product_type": "IT/테크",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Gretel",
-        "title": "Knoll Works — Gretel",
-        "link": "https://gretelny.com/knoll-works",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1595357099319-AUSF62L9JJSSEBLQT3UN/Knoll_hero-iris.png",
-        "screenshot_local": "screenshots/Gretel_13_KnollWorksGretel.png",
-        "product_type": "IT/테크",
-        "design_type": "편집/인쇄물",
-        "region": "해외"
-    },
-    {
-        "agency": "Gretel",
-        "title": "Crystal Bridges — Gretel",
-        "link": "https://gretelny.com/crystal-bridges",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/5d546353-688b-42b8-a9cb-14bd320a1690/17_CBMO_Book.png",
-        "screenshot_local": "screenshots/Gretel_14_CrystalBridgesGretel.png",
-        "product_type": "화장품/뷰티",
-        "design_type": "공간/전시 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Gretel",
-        "title": "Mountain Hardwear — Gretel",
-        "link": "http://gretelny.com/mountain-hardwear",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/7b665f2c-1274-4789-97c2-69c5c3c47c3c/01-MHW-Box_Tent-Final.jpg",
-        "screenshot_local": "screenshots/Gretel_17_MountainHardwearGretel.png",
-        "product_type": "IT/테크",
-        "design_type": "영상/모션 그래픽",
-        "region": "해외"
-    },
-    {
-        "agency": "Gretel",
-        "title": "Noma Projects — Gretel",
-        "link": "https://gretelny.com/noma-projects",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/240602af-5630-4677-a608-96f7d606167e/1.1.jpg",
-        "screenshot_local": "screenshots/Gretel_18_NomaProjectsGretel.png",
-        "product_type": "식음료(F&B)",
-        "design_type": "패키지 디자인",
         "region": "해외"
     },
     {
@@ -744,49 +859,35 @@
         "title": "Nike",
         "link": "https://gretelny.com/nike-soho",
         "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1518559581454-QI22SOA6RU870U74HH8O/nike_soho_carousel_07.jpg",
-        "screenshot_local": "screenshots/Gretel_19_Nike.png",
         "product_type": "스포츠/레저",
         "design_type": "공간/전시 디자인",
         "region": "해외"
     },
     {
         "agency": "Gretel",
-        "title": "Knoll",
-        "link": "https://gretelny.com/knoll-ollo",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1541546813305-ZXZKS91DJ547V87XFTG2/Knoll_Ollo_1.2.jpg",
-        "screenshot_local": "screenshots/Gretel_21_Knoll.png",
-        "product_type": "기타 산업",
-        "design_type": "로고/아이덴티티",
+        "title": "Aesop",
+        "link": "https://gretelny.com/aesop-the-fabulist",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1518539261453-Z1CNT2GYENZ8YXF8A6N1/Carousel_02.jpg",
+        "product_type": "IT/테크",
+        "design_type": "편집/인쇄물",
         "region": "해외"
     },
     {
         "agency": "Gretel",
-        "title": "Stefanie Nelson Dancegroup — Gretel",
-        "link": "https://gretelny.com/stefanie-nelson-dancegroup",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1576891544266-XRIGRJSPFCV284DNVPSM/SND_Postcard_Set_03.png",
-        "screenshot_local": "screenshots/Gretel_22_StefanieNelsonDancegroupGretel.png",
+        "title": "Knoll Works — Gretel",
+        "link": "https://gretelny.com/knoll-works",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1595357099319-AUSF62L9JJSSEBLQT3UN/Knoll_hero-iris.png",
         "product_type": "IT/테크",
-        "design_type": "공간/전시 디자인",
+        "design_type": "편집/인쇄물",
         "region": "해외"
     },
     {
         "agency": "Gretel",
-        "title": "Paramount Network — Gretel",
-        "link": "https://gretelny.com/paramount-network",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1521492983336-NDZW4MYAOSAJGFS0436T/MASTER.jpg",
-        "screenshot_local": "screenshots/Gretel_25_ParamountNetworkGretel.png",
+        "title": "National Geographic — Gretel",
+        "link": "https://gretelny.com/national-geographic",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1519421844382-AC7KRIPMZCU1U2DY8QEV/Hero_Cover_2.1.jpg",
         "product_type": "IT/테크",
-        "design_type": "패키지 디자인",
-        "region": "해외"
-    },
-    {
-        "agency": "Gretel",
-        "title": "Knoll",
-        "link": "https://gretelny.com/knoll-rockwell-unscripted",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1520893849657-QXIEG7SJK4UGC1BORMIR/image-asset.jpeg",
-        "screenshot_local": "screenshots/Gretel_26_Knoll.png",
-        "product_type": "IT/테크",
-        "design_type": "UI/UX 디자인",
+        "design_type": "영상/모션 그래픽",
         "region": "해외"
     },
     {
@@ -794,19 +895,233 @@
         "title": "LOVB — Gretel",
         "link": "https://gretelny.com/lovb",
         "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/10d9bddb-45d0-4c2d-99a2-9910eca6ac30/LOVB_01_Players.jpg",
-        "screenshot_local": "screenshots/Gretel_27_LOVBGretel.png",
         "product_type": "스포츠/레저",
         "design_type": "영상/모션 그래픽",
         "region": "해외"
     },
     {
         "agency": "Gretel",
-        "title": "The Athletic — Gretel",
-        "link": "https://gretelny.com/the-athletic",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1614977884283-WSRT7U53T4BRXYGN084L/The_Athletic_5_Website_Square.jpg",
-        "screenshot_local": "screenshots/Gretel_29_TheAthleticGretel.png",
-        "product_type": "스포츠/레저",
-        "design_type": "로고/아이덴티티",
+        "title": "Noma 2.0 — Gretel",
+        "link": "https://gretelny.com/noma-20",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/89cbd21d-b718-4b97-a025-2dd0b8606500/Noma_2.0_Vegetable_Forest_Ocean_01.jpg",
+        "product_type": "식음료(F&B)",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Gretel",
+        "title": "NI — Gretel",
+        "link": "https://gretelny.com/ni-engineer-ambitiously",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1592939970081-PH6LWSQYRYXESH4LM1IG/NI_Identity_Tradeshow.png",
+        "product_type": "IT/테크",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Gretel",
+        "title": "Knoll",
+        "link": "https://gretelny.com/knoll-hilo",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1518540468354-JJ1J7RWFSUOOQNPU7L9K/Carousel_01.jpg",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Gretel",
+        "title": "The Daily — Gretel",
+        "link": "https://gretelny.com/the-daily",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1536257388468-ASKFCH7YWPY2IW4YDA76/wp_01-2.jpg",
+        "product_type": "IT/테크",
+        "design_type": "편집/인쇄물",
+        "region": "해외"
+    },
+    {
+        "agency": "Gretel",
+        "title": "Finer Sounds — Gretel",
+        "link": "https://gretelny.com/finersounds",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/15f61680-8a3a-4e79-9b92-04c66e530ce2/01_Finer_Sounds_Door_Sign.jpg",
+        "product_type": "IT/테크",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Gretel",
+        "title": "NYT Cooking — Gretel",
+        "link": "https://gretelny.com/nyt-cooking",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1549495691610-7ASRWK84Y6CTRN82N1CP/NYT_Cooking_Tomato.jpg",
+        "product_type": "IT/테크",
+        "design_type": "편집/인쇄물",
+        "region": "해외"
+    },
+    {
+        "agency": "Gretel",
+        "title": "Channel 5 — Gretel",
+        "link": "https://gretelny.com/channel-5",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1521054930783-J75QPDVSHCUT407CKTF0/image-asset.jpeg",
+        "product_type": "IT/테크",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Gretel",
+        "title": "21st Century Fox — Gretel",
+        "link": "https://gretelny.com/21st-century-fox",
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/59317e12e58c620c430469b9/1529094238533-07R9TLK4RXMR9RL8OGE7/Upload_01.jpg",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Swedish Olympic Committee",
+        "link": "https://www.kurppahosk.com/work/swedish-olympic-committee",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "기타 산업",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Tugg",
+        "link": "https://www.kurppahosk.com/work/tugg",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "화장품/뷰티",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Beatport",
+        "link": "https://www.kurppahosk.com/work/beatport",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Dustin",
+        "link": "https://www.kurppahosk.com/work/dustin",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "TV4 Play",
+        "link": "https://www.kurppahosk.com/work/tv4play",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Anyfin",
+        "link": "https://www.kurppahosk.com/work/anyfin",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "& Other Stories – Evolving the brand by Kurppa Hosk",
+        "link": "https://www.kurppahosk.com/work/and-other-stories",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Superlative",
+        "link": "https://www.kurppahosk.com/work/superlative",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "화장품/뷰티",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Defentry",
+        "link": "https://www.kurppahosk.com/work/defentry",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "No Early Birds – Brand identity by Kurppa Hosk",
+        "link": "https://www.kurppahosk.com/work/no-early-birds",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Berghs",
+        "link": "https://www.kurppahosk.com/work/berghs",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "금융/핀테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Konserthuset",
+        "link": "https://www.kurppahosk.com/work/konserthuset",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Soundation",
+        "link": "https://www.kurppahosk.com/work/soundation",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Project_13",
+        "link": "https://www.kurppahosk.com/cookies",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "FOMO",
+        "link": "https://www.kurppahosk.com/work/fomo",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "PowerDot",
+        "link": "https://www.kurppahosk.com/work/powerdot",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Alleima – Brand development by Kurppa Hosk",
+        "link": "https://www.kurppahosk.com/work/alleima",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
         "region": "해외"
     },
     {
@@ -814,7 +1129,15 @@
         "title": "Unveiling Llama on the center stage. Meta's open",
         "link": "https://www.kurppahosk.com/work/meta",
         "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
-        "screenshot_local": "screenshots/Kurppa Hosk_1_UnveilingLlamaonthecenterstageMetasopen.png",
+        "product_type": "스포츠/레저",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "La Mer",
+        "link": "https://www.kurppahosk.com/work/la-mer",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
         "product_type": "스포츠/레저",
         "design_type": "UI/UX 디자인",
         "region": "해외"
@@ -824,9 +1147,1205 @@
         "title": "Stellar",
         "link": "https://www.kurppahosk.com/work/stellar",
         "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
-        "screenshot_local": "screenshots/Kurppa Hosk_12_Stellar.png",
         "product_type": "IT/테크",
         "design_type": "UI/UX 디자인",
         "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Oscar Jacobson",
+        "link": "https://www.kurppahosk.com/work/oscar-jacobson",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "금융/핀테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "KÄLLA",
+        "link": "https://www.kurppahosk.com/work/kalla",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "금융/핀테크",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Pinterest",
+        "link": "https://www.kurppahosk.com/work/pinterest",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Bobbi Brown",
+        "link": "https://www.kurppahosk.com/work/bobbi-brown",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "화장품/뷰티",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Securitas",
+        "link": "https://www.kurppahosk.com/work/securitas",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "기타 산업",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Vindmark",
+        "link": "https://www.kurppahosk.com/work/vindmark",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "스포츠/레저",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Blaest – Brand development by Kurppa Hosk",
+        "link": "https://www.kurppahosk.com/work/blaest",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "공공/문화",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Intrum",
+        "link": "https://www.kurppahosk.com/work/intrum",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "O.A.Devold – Brand development by Kurppa Hosk",
+        "link": "https://www.kurppahosk.com/work/oad",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Kurppa Hosk",
+        "title": "Wrapp",
+        "link": "https://www.kurppahosk.com/work/wrapp",
+        "thumbnail": "https://www.kurppahosk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0y14le4e%2Fproduction%2F00fed93c94e6aa7a054f054acf6ca80c941cb12b-283x210.svg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=75",
+        "product_type": "금융/핀테크",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Wolff Olins",
+        "title": "Work — Lloyds — Brand Strategy and more — Wolff Olins",
+        "link": "https://www.wolffolins.com/work/lloyds",
+        "thumbnail": "https://www.wolffolins.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F4rnblstkg79m%2F6uxJFjL4jJQeyJVJ1VOLMd%2F83f91049df57d26692f607dc6a1e3569%2F02_Lloyds_Website_Magazine.jpg&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Wolff Olins",
+        "title": "Work — New York Botanical Garden — Visual Identity and more — Wolff Olins",
+        "link": "https://www.wolffolins.com/work/nybg",
+        "thumbnail": "https://www.wolffolins.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F4rnblstkg79m%2FX9UK6bSfnhEeZcsLqosDZ%2F6bd0a9a5cb30c39f5b4236eaa454446e%2FNYBG_CaseStudy_03.jpg&w=3840&q=75",
+        "product_type": "화장품/뷰티",
+        "design_type": "로고/아이덴티티",
+        "region": "해외"
+    },
+    {
+        "agency": "Wolff Olins",
+        "title": "Work — Uber — Brand Strategy and more — Wolff Olins",
+        "link": "https://www.wolffolins.com/work/uber",
+        "thumbnail": "https://www.wolffolins.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F4rnblstkg79m%2F4mVkY4nRXNsK3V2jvKgu96%2F44e59281e5f219c826b88aedcd5e1157%2FWO_Uber_Case_Study_03.png&w=3840&q=75",
+        "product_type": "자동차/모빌리티",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Wolff Olins",
+        "title": "Work — Blank Street — Brand Strategy and more — Wolff Olins",
+        "link": "https://www.wolffolins.com/work/blank-street",
+        "thumbnail": "https://www.wolffolins.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F4rnblstkg79m%2F5oLdTinlzaz42BAe9f255I%2F633bb4100d0b6d679b5e8edefd875ea6%2FBlank_Street_01.jpg&w=3840&q=75",
+        "product_type": "화장품/뷰티",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Wolff Olins",
+        "title": "Work — Leeum Museum of Art — Brand Strategy and more — Wolff Olins",
+        "link": "https://www.wolffolins.com/work/leeum",
+        "thumbnail": "https://www.wolffolins.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F4rnblstkg79m%2FXHQ30HyF6uGMv6GqeOP80%2F2f9d6246a28e306f45167f541e9ab3cc%2FWO_Leeum_web_06.jpg&w=3840&q=75",
+        "product_type": "자동차/모빌리티",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Wolff Olins",
+        "title": "Archive — Wolff Olins",
+        "link": "https://www.wolffolins.com/archive",
+        "thumbnail": "https://www.wolffolins.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F4rnblstkg79m%2F6wl45MRGKbYy1BI9X0Wimw%2Fceea6f192464efff4ea06de35530fd1d%2F1002947_SML.jpg&w=1200&q=75",
+        "product_type": "자동차/모빌리티",
+        "design_type": "브랜드 경험/전략",
+        "region": "해외"
+    },
+    {
+        "agency": "Wolff Olins",
+        "title": "Work — Bergdorf Goodman — Culture Strategy & EVP and more — Wolff Olins",
+        "link": "https://www.wolffolins.com/work/bergdorf-goodman",
+        "thumbnail": "https://www.wolffolins.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F4rnblstkg79m%2F5pqzjbZYlMTw4DoyAock12%2F2fb414741c0f4cc60e6ff064de734025%2FFrame_316125730.png&w=3840&q=75",
+        "product_type": "자동차/모빌리티",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Wolff Olins",
+        "title": "Work — Patreon — Visual Identity and more — Wolff Olins",
+        "link": "https://www.wolffolins.com/work/patreon",
+        "thumbnail": "https://www.wolffolins.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F4rnblstkg79m%2F4FDg1RND319Nb0ekeBZzYF%2Fd68ba6cad28dc0eb8acd311d6fd672d0%2FWolffOlins_Patreon_04.jpg&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Wolff Olins",
+        "title": "Work — Benefit — Visual Identity and more — Wolff Olins",
+        "link": "https://www.wolffolins.com/work/benefit",
+        "thumbnail": "https://www.wolffolins.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F4rnblstkg79m%2F6VrijO31f8kTQSFQRbJw0Q%2F6d3e4dc2b2be0b67433ccfb070e1d112%2FWolffOlins_BenefitCosmetics_04.jpg&w=3840&q=75",
+        "product_type": "화장품/뷰티",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Wolff Olins",
+        "title": "Work — The Met — Visual Identity and more — Wolff Olins",
+        "link": "https://www.wolffolins.com/work/the-met",
+        "thumbnail": "https://www.wolffolins.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F4rnblstkg79m%2F5eomsMpP8bYgVXuaIOdxhj%2F0083765dcd0107d53eeab2d8f102e2d0%2FThe_Met_Case_Study_02.jpg&w=3840&q=75",
+        "product_type": "IT/테크",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Wolff Olins",
+        "title": "Work — Sandals & Beaches Resorts — Physical Environments and more — Wolff Olins",
+        "link": "https://www.wolffolins.com/work/sandals-and-beaches-resorts",
+        "thumbnail": "https://www.wolffolins.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F4rnblstkg79m%2F7G1mD0376vpOiBvRrbEnu0%2Fcfe76f59995b140bfe2435f4626f2b2e%2F01.png&w=3840&q=75",
+        "product_type": "식음료(F&B)",
+        "design_type": "편집/인쇄물",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Pentagram",
+        "link": "https://www.pentagram.com/hospitality-travel",
+        "thumbnail": "https://pentagram-production.imgix.net/88a45a08-99fb-4dac-b73e-a58f270bd9ad/SM_Engalin_01.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=146%2C0%2C1621%2C1080&w=1500&fm=jpg&q=70&auto=format&h=1000",
+        "product_type": "화장품/뷰티",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Pentagram",
+        "link": "https://www.pentagram.com/technology",
+        "thumbnail": "https://pentagram-production.imgix.net/3359b08b-857b-4d5f-a9bc-d370da4f89e3/Igluu_Casestudy_Introductorycopy.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=195%2C0%2C2109%2C1406&w=1500&fm=jpg&q=70&auto=format&h=1000",
+        "product_type": "화장품/뷰티",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "MoN Takanawa: The Museum of Narratives",
+        "link": "https://www.pentagram.com/work/mon-takanawa-the-museum-of-narratives",
+        "thumbnail": "https://pentagram-production.imgix.net/9380693d-f1f0-48a9-bc3a-495e87309f64/thumbnail.png?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C67%2C3240%2C2025&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "IT/테크",
+        "design_type": "로고/아이덴티티",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "The Osh Gallery Alphabet",
+        "link": "https://www.pentagram.com/work/the-osh-gallery-alphabet",
+        "thumbnail": "https://pentagram-production.imgix.net/4c2cd219-3c23-4d53-add4-989157780726/Osh_Alphabet_Case_Study_Cover.png?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C0%2C2993%2C1870&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "기타 산업",
+        "design_type": "로고/아이덴티티",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "‘A Data Love Letter to the Subway’",
+        "link": "https://www.pentagram.com/work/a-data-love-letter-to-the-subway",
+        "thumbnail": "https://pentagram-production.imgix.net/b27d7860-e186-4545-bbe6-6e37f3782cf7/251013_Web_Thumbnail_3000x2000.png?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C62%2C3000%2C1875&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "화장품/뷰티",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Pentagram",
+        "link": "https://www.pentagram.com/finance",
+        "thumbnail": "https://pentagram-production.imgix.net/cfa60dd6-ab91-4e1f-bfad-0128c5a377de/payz.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C0%2C3000%2C2000&w=1500&fm=jpg&q=70&auto=format&h=1000",
+        "product_type": "화장품/뷰티",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Pentagram",
+        "link": "https://www.pentagram.com/manufacturing-industrials",
+        "thumbnail": "https://pentagram-production.imgix.net/c9d96ee6-ab2f-4c08-9d10-695840165f1e/oehler-CONICAL-Container-Branding-Container.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C0%2C2250%2C1500&w=1500&fm=jpg&q=70&auto=format&h=1000",
+        "product_type": "스포츠/레저",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "National Building Museum",
+        "link": "https://www.pentagram.com/work/national-building-museum",
+        "thumbnail": "https://pentagram-production.imgix.net/c9be29ff-037a-40a3-bb1f-07d8d2bbb3d6/GFTHUMBNAIL.png?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C80%2C1920%2C1200&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "공공/문화",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Museo Casa Kahlo",
+        "link": "https://www.pentagram.com/work/museo-casa-kahlo",
+        "thumbnail": "https://pentagram-production.imgix.net/98881cfb-9d6e-457c-8c51-bd9ee8c1069d/MFK.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C0%2C3000%2C1920&w=640&crop=1&fm=jpg&q=70&auto=format&fit=crop&h=410",
+        "product_type": "식음료(F&B)",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Chateau Engalin",
+        "link": "https://www.pentagram.com/work/chateau-engalin",
+        "thumbnail": "https://pentagram-production.imgix.net/070dedab-aeef-4a38-b5a5-71acee02c7d6/1_PGC_CaseStudy_Herocopy.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=96%2C0%2C1728%2C1080&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "식음료(F&B)",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Pentagram",
+        "link": "https://www.pentagram.com/education",
+        "thumbnail": "",
+        "product_type": "화장품/뷰티",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Poetry Magazine",
+        "link": "https://www.pentagram.com/work/poetry-magazine",
+        "thumbnail": "https://pentagram-production.imgix.net/d64953f4-9dff-4e56-9295-8eea7decd1df/Poetry_Covers-Dec-Jan-Mar-Pentagram-TrabuccoCampos-01.png?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C0%2C2400%2C1350&w=640&crop=1&fm=jpg&q=70&auto=format&fit=crop&h=360",
+        "product_type": "기타 산업",
+        "design_type": "편집/인쇄물",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Gates Foundation",
+        "link": "https://www.pentagram.com/work/gates-foundation",
+        "thumbnail": "https://pentagram-production.imgix.net/57852ff0-c8d5-4025-8b12-d293662f25dc/MW_GEIUK_01_cover.png?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=106%2C0%2C1729%2C1080&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "기타 산업",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Chiba Tech",
+        "link": "https://www.pentagram.com/work/chiba-tech",
+        "thumbnail": "https://pentagram-production.imgix.net/227ec365-9169-4dec-a408-16c0afaaf338/JM_Caligra01.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C174%2C2617%2C1634&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "IT/테크",
+        "design_type": "로고/아이덴티티",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Super Peach",
+        "link": "https://www.pentagram.com/work/super-peach",
+        "thumbnail": "https://pentagram-production.imgix.net/2641bb9e-b7d0-47de-8cbb-d1d48b718789/SpeakData_Thumbnail.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C80%2C3840%2C2400&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "식음료(F&B)",
+        "design_type": "편집/인쇄물",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "SC",
+        "link": "https://www.pentagram.com/work/sc",
+        "thumbnail": "https://pentagram-production.imgix.net/19c22ea8-950c-4351-863d-805ed72f09af/sc-01.png?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C0%2C3840%2C2160&w=640&crop=1&fm=jpg&q=70&auto=format&fit=crop&h=360",
+        "product_type": "IT/테크",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Harry Ransom Center",
+        "link": "https://www.pentagram.com/work/harry-ransom-center",
+        "thumbnail": "https://pentagram-production.imgix.net/e1af4e25-5315-46bb-8302-1a9b5bf33d5e/1_NBM_Intro_Animation.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=150%2C0%2C2700%2C1688&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "IT/테크",
+        "design_type": "로고/아이덴티티",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Pentagram",
+        "link": "https://www.pentagram.com/food-drink",
+        "thumbnail": "https://pentagram-production.imgix.net/88a45a08-99fb-4dac-b73e-a58f270bd9ad/SM_Engalin_01.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=146%2C0%2C1621%2C1080&w=1500&fm=jpg&q=70&auto=format&h=1000",
+        "product_type": "화장품/뷰티",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Payz",
+        "link": "https://www.pentagram.com/work/payz",
+        "thumbnail": "https://pentagram-production.imgix.net/a87b3404-d75f-49e6-be05-1c3f881ac9fc/TWC_Web_1copy.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=96%2C0%2C1728%2C1080&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "IT/테크",
+        "design_type": "로고/아이덴티티",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "CTrees",
+        "link": "https://www.pentagram.com/work/ctrees",
+        "thumbnail": "https://pentagram-production.imgix.net/e1e10922-b8d4-4525-bc48-25baee9f7877/MINIDEUS_Movcopy.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=96%2C0%2C1728%2C1080&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "화장품/뷰티",
+        "design_type": "UI/UX 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Pentagram",
+        "link": "https://www.pentagram.com/health",
+        "thumbnail": "https://pentagram-production.imgix.net/8e83b1ec-eddb-4ea7-b038-8c713c3ae784/Abridge_CaseStudy_11.png.jpeg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=165%2C0%2C1688%2C1125&w=1500&fm=jpg&q=70&auto=format&h=1000",
+        "product_type": "화장품/뷰티",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "'The Nineties x Anna Sui'",
+        "link": "https://www.pentagram.com/work/the-nineties-x-anna-sui",
+        "thumbnail": "https://pentagram-production.imgix.net/eb4c3053-86b5-4240-92e4-b6dca99148c4/250827_ANNA_SUI_4142.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C62%2C3000%2C1875&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "화장품/뷰티",
+        "design_type": "편집/인쇄물",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Pentagram",
+        "link": "https://www.pentagram.com/consumer-brands",
+        "thumbnail": "https://pentagram-production.imgix.net/cfa60dd6-ab91-4e1f-bfad-0128c5a377de/payz.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C0%2C3000%2C2000&w=1500&fm=jpg&q=70&auto=format&h=1000",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Vertical",
+        "link": "https://www.pentagram.com/work/vertical",
+        "thumbnail": "https://pentagram-production.imgix.net/e5740531-0d73-45d6-83fc-f66e23f33ae4/01_AH_Vertical-v2.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=159%2C0%2C3518%2C2200&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "공공/문화",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Pentagram",
+        "link": "https://www.pentagram.com/fashion-beauty",
+        "thumbnail": "https://pentagram-production.imgix.net/e1e10922-b8d4-4525-bc48-25baee9f7877/MINIDEUS_Movcopy.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=150%2C0%2C1620%2C1080&w=1500&fm=jpg&q=70&auto=format&h=1000",
+        "product_type": "스포츠/레저",
+        "design_type": "패키지 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "CONICAL",
+        "link": "https://www.pentagram.com/work/conical",
+        "thumbnail": "https://pentagram-production.imgix.net/c9d96ee6-ab2f-4c08-9d10-695840165f1e/oehler-CONICAL-Container-Branding-Container.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C94%2C2250%2C1406&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "기타 산업",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Caligra c100 Developer Terminal",
+        "link": "https://www.pentagram.com/work/caligra-c100-developer-terminal",
+        "thumbnail": "https://pentagram-production.imgix.net/227ec365-9169-4dec-a408-16c0afaaf338/JM_Caligra01.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C174%2C2617%2C1634&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "자동차/모빌리티",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Jane Austen’s House: 250th Anniversary",
+        "link": "https://www.pentagram.com/work/jane-austen-s-house-250th-anniversary",
+        "thumbnail": "https://pentagram-production.imgix.net/e5740531-0d73-45d6-83fc-f66e23f33ae4/01_AH_Vertical-v2.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=159%2C0%2C3518%2C2200&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "공공/문화",
+        "design_type": "로고/아이덴티티",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "Gender Equality Index UK",
+        "link": "https://www.pentagram.com/work/gender-equality-index-uk",
+        "thumbnail": "https://pentagram-production.imgix.net/f2e48a8e-2f57-4e69-8a74-1bab5bb21e48/DL_JAH250_thumbnail.png?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=126%2C0%2C2981%2C1864&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "화장품/뷰티",
+        "design_type": "영상/모션 그래픽",
+        "region": "해외"
+    },
+    {
+        "agency": "Pentagram",
+        "title": "The Wang Contemporary",
+        "link": "https://www.pentagram.com/work/the-wang-contemporary",
+        "thumbnail": "https://pentagram-production.imgix.net/a87b3404-d75f-49e6-be05-1c3f881ac9fc/TWC_Web_1copy.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=96%2C0%2C1728%2C1080&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "product_type": "공공/문화",
+        "design_type": "공간/전시 디자인",
+        "region": "해외"
+    },
+    {
+        "agency": "Designfever",
+        "title": "CJ Group Global Website Renewal",
+        "link": "https://designfever.com/work/cj-group-global",
+        "thumbnail": "https://api.designfever.com/data/image/list/P1_Thum_19.jpg",
+        "product_type": "패션/의류",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "Samsung Air Purifier Infinite Line",
+        "link": "https://designfever.com/work/samsung-air-infinite",
+        "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "product_type": "IT/테크",
+        "design_type": "영상/모션 그래픽",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "AIA Vitality",
+        "link": "https://designfever.com/work/aia-vitality",
+        "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "product_type": "패션/의류",
+        "design_type": "영상/모션 그래픽",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "Mnet Plus",
+        "link": "https://designfever.com/work/mnet-plus",
+        "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "Innovation by Design Samsung",
+        "link": "https://designfever.com/work/2022-design-samsung",
+        "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "product_type": "기타 산업",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "soPSYety",
+        "link": "https://designfever.com/work/sopsyety",
+        "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "product_type": "기타 산업",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "Lexus Certified Website Renewal",
+        "link": "https://designfever.com/work/lexus-certified-website-renewal",
+        "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "Samsung Galaxy Fold, Galaxy S10 Unpacked",
+        "link": "https://designfever.com/work/samsung-galaxy-fold-galaxy-s10-unpacked",
+        "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "product_type": "패션/의류",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "Samsung AI&Big data Memory Solution",
+        "link": "https://designfever.com/work/samsung-ai-big-data-memory-solution",
+        "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "product_type": "금융/핀테크",
+        "design_type": "영상/모션 그래픽",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "Cyberpunk 2077 Launching Campaign",
+        "link": "https://designfever.com/work/cyberpunk-2077",
+        "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "product_type": "금융/핀테크",
+        "design_type": "광고/캠페인",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "CGV Premium Cinema key visual",
+        "link": "https://designfever.com/work/cgv-premium-cinema-key-visual",
+        "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "product_type": "엔터/미디어",
+        "design_type": "공간/전시 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "2025 LEXUS MASTERS",
+        "link": "https://designfever.com/work/lexus-2025lexusmasters",
+        "thumbnail": "https://api.designfever.com/data/image/svg/Lexus_2D_2510_Black_CMYK_1.svg",
+        "product_type": "스포츠/레저",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "SSD 990 PRO Series Feature Video",
+        "link": "https://designfever.com/work/990-pro-series",
+        "thumbnail": "https://api.designfever.com/data/image/svg/Samsung_Orig_Wordmark_BLACK_RGB_8.svg",
+        "product_type": "IT/테크",
+        "design_type": "영상/모션 그래픽",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "Samsung Galaxy Book Series Unpacked",
+        "link": "https://designfever.com/work/samsung-galaxy-book-series-unpacked",
+        "thumbnail": "https://api.designfever.com/data/image/svg/samsung_6.svg",
+        "product_type": "자동차/모빌리티",
+        "design_type": "편집/인쇄물",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "Samsung Galaxy Z Fold3 & Flip3 Unpacked",
+        "link": "https://designfever.com/work/samsung-galaxy-z-fold3-flip3-unpacked",
+        "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "product_type": "패션/의류",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "Designfever",
+        "title": "Design Samsung Renewal",
+        "link": "https://designfever.com/work/design-samsung-renewal",
+        "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "VinylC",
+        "title": "Vinylcrews",
+        "link": "https://www.vinylc.com/en/vinylcrews",
+        "thumbnail": "https://www.vinylc.com/upload/crew/CG00000104/이수연.png",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "VinylC",
+        "title": "Goods",
+        "link": "https://www.vinylc.com/en/goods",
+        "thumbnail": "https://www.vinylc.com/upload/goods/GD00000059/vinylc_umbrella.jpg",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "VinylC",
+        "title": "Practical UX VinylC",
+        "link": "https://www.vinylc.com/en/main",
+        "thumbnail": "https://www.vinylc.com/upload/module/MD00004295/samsung_o2_works_pc_main_img.jpg",
+        "product_type": "자동차/모빌리티",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "VinylC",
+        "title": "Request",
+        "link": "https://www.vinylc.com/en/request/form",
+        "thumbnail": "",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "VinylC",
+        "title": "Works",
+        "link": "https://www.vinylc.com/en/works",
+        "thumbnail": "https://www.vinylc.com/upload/work/WK00000997/_________________samsung_o2_work_list2.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "HNINE",
+        "link": "https://www.hnine.com/tech.html",
+        "thumbnail": "https://www.hnine.com/assets/images/tech-ai-poster.png",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Smart Home Wall Pad & Mobile App",
+        "link": "https://www.hnine.com/project/daelim-wall-pad-renewal.html",
+        "thumbnail": "",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "My Style Lab",
+        "link": "https://www.hnine.com/project/my-style-lab-renewal.html",
+        "thumbnail": "",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Samsung Cloud Web",
+        "link": "https://www.hnine.com/project/samsungCloudWeb.html",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Signal Design System",
+        "link": "https://www.hnine.com/project/sk-hds-renewal.html",
+        "thumbnail": "",
+        "product_type": "IT/테크",
+        "design_type": "영상/모션 그래픽",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Jack&Pulse",
+        "link": "https://www.hnine.com/project/samyang-jack-pulse/index.html",
+        "thumbnail": "",
+        "product_type": "패션/의류",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Plac Official Site Renewal",
+        "link": "https://www.hnine.com/project/plac.html",
+        "thumbnail": "",
+        "product_type": "패션/의류",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "LG Sound Bar App",
+        "link": "https://www.hnine.com/project/lg-sound-bar-renewal.html",
+        "thumbnail": "",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Connected Car",
+        "link": "https://www.hnine.com/project/lg-connected-car-renewal.html",
+        "thumbnail": "",
+        "product_type": "자동차/모빌리티",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Avatar Outfit 3D 의상 제작: Air Purifier, Location Based Service",
+        "link": "https://www.hnine.com/project/samsung-avatar-outfit-3d-renewal.html",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "영상/모션 그래픽",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Samsung Retail Robot",
+        "link": "https://www.hnine.com/project/samsung-retail-robot-renewal.html",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "영상/모션 그래픽",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "SDC 2022 Event system UX",
+        "link": "https://www.hnine.com/project/samsung-sdc22/index.html",
+        "thumbnail": "https://www.hnine.com/assets/images/sdc22-intro-obj-1.svg",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "LG Design Lab 0.2",
+        "link": "https://www.hnine.com/project/lg-design-lab-renewal.html",
+        "thumbnail": "",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Lifeplus Tribes",
+        "link": "https://www.hnine.com/project/hanwha-life-plus-tribes-renewal.html",
+        "thumbnail": "",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Yanolja Y FLUX Kiosk",
+        "link": "https://www.hnine.com/project/yanolja-yflux-kiosk/index.html",
+        "thumbnail": "https://www.hnine.com/assets/images/img-yflux-05-mo.png",
+        "product_type": "기타 산업",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "AR Emoji Sticker",
+        "link": "https://www.hnine.com/project/ar-emoji-sticker-renewal.html",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "영상/모션 그래픽",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "HENCE",
+        "link": "https://www.hnine.com/project/quinvir-hence/index.html",
+        "thumbnail": "",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "KDB NextRound",
+        "link": "https://www.hnine.com/project/next-round-renewal.html",
+        "thumbnail": "",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Interactive Media Art For Fuorisalone",
+        "link": "https://www.hnine.com/project/media-art-for-fuorisalone-renewal.html",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "영상/모션 그래픽",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Cube Crush",
+        "link": "https://www.hnine.com/project/cubecrush/index.html",
+        "thumbnail": "",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Vortex Gaming",
+        "link": "https://www.hnine.com/project/inven-vrtx/index.html",
+        "thumbnail": "",
+        "product_type": "패션/의류",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "AR App",
+        "link": "https://www.hnine.com/project/arApp-renewal.html",
+        "thumbnail": "",
+        "product_type": "IT/테크",
+        "design_type": "영상/모션 그래픽",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "KT 고객센터",
+        "link": "https://www.hnine.com/project/kt-mobile-app-renewal.html",
+        "thumbnail": "",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Samsung Experience Plus",
+        "link": "https://www.hnine.com/project/samsung-experience-plus.html",
+        "thumbnail": "https://www.hnine.com/assets/images/sep-screen-01.png",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "LG Shield 홈페이지 구축",
+        "link": "https://www.hnine.com/project/lg-shield/index.html",
+        "thumbnail": "https://www.hnine.com/assets/images/lg-shield-hero_pc.png",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "OwaO",
+        "link": "https://www.hnine.com/project/owao-renewal.html",
+        "thumbnail": "",
+        "product_type": "IT/테크",
+        "design_type": "로고/아이덴티티",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "EMTOMEGA 블랙박스 UX/UI",
+        "link": "https://www.hnine.com/project/emtomega/index.html",
+        "thumbnail": "https://www.hnine.com/assets/images/emtomega_hero_pc.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "Statue Road AR",
+        "link": "https://www.hnine.com/project/statue-road-ar/index.html",
+        "thumbnail": "https://www.hnine.com/assets/images/statue-memory-awaken.webp",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "HNINE",
+        "title": "국립중앙박물관 교육플랫폼 모두(MOUD)",
+        "link": "https://www.hnine.com/project/national-museum-of-korea-modu.html",
+        "thumbnail": "https://www.hnine.com/assets/images/img_08.png",
+        "product_type": "IT/테크",
+        "design_type": "UI/UX 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "기록하는 증평의 봄 전시회",
+        "link": "https://b-works.co.kr/22488423",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/22488436",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/25635957",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/22488451",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "LG트윈타워 커넥트윈 라이브러리, 굿즈샵 사이니지 설계",
+        "link": "https://b-works.co.kr/LG-5",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "인천공항 신세계면세점 LED 디스플레이",
+        "link": "https://b-works.co.kr/LED",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "LG화학 디지털아카이브 기념 엽서북",
+        "link": "https://b-works.co.kr/LG-4",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "동원글로벌터미널부산 동원아카이브라운지",
+        "link": "https://b-works.co.kr/35968008",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/35913744",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "GS ITM 솔루션북 브로슈어",
+        "link": "https://b-works.co.kr/GS-ITM",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "K DAX 기업 브로슈어",
+        "link": "https://b-works.co.kr/K-DAX",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "대한민국시도지사협의회 사무공간 환경개선",
+        "link": "https://b-works.co.kr/29360554",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/22488452",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/33683848",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/22488447",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/3",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "신테카바이오 STB CLOUD 브로슈어",
+        "link": "https://b-works.co.kr/STB-CLOUD",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "인천힘찬종합병원 매뉴얼북",
+        "link": "https://b-works.co.kr/22488425",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/22488448",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/22488421",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/22488432",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/29360455",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/26300727",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "서울국제학교 명예의전당",
+        "link": "https://b-works.co.kr/22488431",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/2026",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Network Outage",
+        "link": "https://b-works.co.kr/30",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "Graphic",
+        "link": "https://b-works.co.kr/Graphic",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "유아동/키즈",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "인천공항 신세계면세점 사이니지 [FACADE]",
+        "link": "https://b-works.co.kr/FACADE",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "2024 경기건축문화제 전시공간 조성",
+        "link": "https://b-works.co.kr/2024-1",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "B-Works",
+        "title": "서울하수도과학관 로비 기획 전시",
+        "link": "https://b-works.co.kr/37867864",
+        "thumbnail": "https://freight.cargo.site/w/150/i/77728f1ac923e10f776dfe14e55369d4dd339238351ec9fd11028c25486c8eaf/200106-bworks-05.png",
+        "product_type": "자동차/모빌리티",
+        "design_type": "패키지 디자인",
+        "region": "국내"
+    },
+    {
+        "agency": "Plus X",
+        "title": "Plus X Creative Partner",
+        "link": "https://www.plus-ex.com/experience",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
+    },
+    {
+        "agency": "Plus X",
+        "title": "Plus X Creative Partner",
+        "link": "https://www.plus-ex.com/hiring",
+        "thumbnail": "",
+        "product_type": "기타 산업",
+        "design_type": "브랜드 경험/전략",
+        "region": "국내"
     }
 ]
